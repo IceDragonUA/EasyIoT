@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f287e36a-c3ea-42c2-b092-22bff8a3c580" name="Default" comment="add drivers">
+    <list default="true" id="f287e36a-c3ea-42c2-b092-22bff8a3c580" name="Default" comment="refactoring">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/Ha.WebApp.js" afterPath="$PROJECT_DIR$/html/js/Ha.WebApp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/pages/config/automation/automationgroups.html" afterPath="$PROJECT_DIR$/html/pages/config/automation/automationgroups.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/pages/config/automation/automationlist.html" afterPath="$PROJECT_DIR$/html/pages/config/automation/automationlist.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/pages/config/automation/automationprogram.html" afterPath="$PROJECT_DIR$/html/pages/config/automation/automationprogram.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/pages/config/automation/automationprogramparam.html" afterPath="$PROJECT_DIR$/html/pages/config/automation/automationprogramparam.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/pages/config/config.html" afterPath="$PROJECT_DIR$/html/pages/config/config.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/pages/config/drivers/drivers.html" afterPath="$PROJECT_DIR$/html/pages/config/drivers/drivers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/pages/config/drivers/rpigpio.html" afterPath="$PROJECT_DIR$/html/pages/config/drivers/rpigpio.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/pages/config/drivers/virtual.html" afterPath="$PROJECT_DIR$/html/pages/config/drivers/virtual.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/pages/config/general/generalsettings.html" afterPath="$PROJECT_DIR$/html/pages/config/general/generalsettings.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/pages/config/groupmodules/groupmodules.html" afterPath="$PROJECT_DIR$/html/pages/config/groupmodules/groupmodules.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/pages/config/groupmodules/groups.html" afterPath="$PROJECT_DIR$/html/pages/config/groupmodules/groups.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/pages/config/smsinterface/smsinterface.html" afterPath="$PROJECT_DIR$/html/pages/config/smsinterface/smsinterface.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/pages/config/webinterface/webinterface.html" afterPath="$PROJECT_DIR$/html/pages/config/webinterface/webinterface.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/pages/control/chart.html" afterPath="$PROJECT_DIR$/html/pages/control/chart.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/pages/control/control.html" afterPath="$PROJECT_DIR$/html/pages/control/control.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index.html" afterPath="$PROJECT_DIR$/html/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -69,14 +54,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="52" column="43" lean-forward="false" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
-              <folding>
-                <marker date="1486210828380" expanded="true" signature="476:495" ph="..." />
-              </folding>
+            <state relative-caret-position="18">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -128,7 +111,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="action-black.svg" pinned="false" current-in-tab="true">
+      <file leaf-file-name="action-black.svg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/css/themes/default/images/icons-svg/action-black.svg">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -203,8 +186,8 @@
         <option value="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.theme-1.4.3.min.css" />
         <option value="$PROJECT_DIR$/html/css/themes/default/jquery.mobile-1.4.3.min.css" />
         <option value="$PROJECT_DIR$/html/js/Ha.WebApp.js" />
-        <option value="$PROJECT_DIR$/html/index.html" />
         <option value="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/action-black.svg" />
+        <option value="$PROJECT_DIR$/html/index.html" />
       </list>
     </option>
   </component>
@@ -735,7 +718,7 @@
       <workItem from="1486203758186" duration="66000" />
       <workItem from="1486204937136" duration="1121000" />
       <workItem from="1486206160168" duration="2678000" />
-      <workItem from="1486208897029" duration="1972000" />
+      <workItem from="1486208897029" duration="2177000" />
     </task>
     <task id="LOCAL-00001" summary="Init Project">
       <created>1486206578928</created>
@@ -765,11 +748,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486209820044</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="refactoring">
+      <created>1486211023156</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1486211023156</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5837000" />
+    <option name="totallyTimeSpent" value="6042000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -835,7 +825,8 @@
     <MESSAGE value="cleanup" />
     <MESSAGE value="clean code" />
     <MESSAGE value="add drivers" />
-    <option name="LAST_COMMIT_MESSAGE" value="add drivers" />
+    <MESSAGE value="refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1058,6 +1049,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1196,16 +1188,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="52" column="43" lean-forward="false" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
-          <folding>
-            <marker date="1486210828380" expanded="true" signature="476:495" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/js/jquery-ui.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1249,6 +1231,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
