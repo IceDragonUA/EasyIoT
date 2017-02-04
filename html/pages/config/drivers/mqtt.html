@@ -1,0 +1,362 @@
+﻿<div data-role="page" id="page_config_drivers_mqtt">
+    {include pages/header.html}
+    <div class="ui-content" role="main">
+        <ul id="config_driversslist" data-role="listview" data-inset="true">
+
+            <!-- Virtual -->
+            <li data-role="list-divider">MQTT Client driver settings</li>
+            <li>
+                <label for="configure_driver_mqtt_enabled">MQTT Client driver</label>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a"></div>
+                    <div class="ui-block-b">
+                        <span style="float: right">
+                            <div class="containing-element" style="width: 200px">
+                                <select id="configure_driver_mqtt_enabled" data-role="slider">
+                                    <option value="0">Disable</option>
+                                    <option value="1">Enable</option>
+                                </select>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </li>
+
+
+            <li id="configure_driver_mqttoptions"><span>Mqqt Connection</span>
+                <div id="Div2" data-role="horizontal" data-mini="true" data-inset="true">
+                    <a href="javascript:Ha.WebApp.Configure.MQTTClientConenctionAdd()"
+                       data-role="button" _class="ui-disabled" data-icon="plus">Add Conenction</a>
+
+                    <a href="javascript:Ha.WebApp.Configure.MQTTClientConnectionRemovePopup()" data-role="button"
+                       _class="ui-disabled" data-icon="minus">Remove Connection</a>
+
+                    <a href="javascript:Ha.WebApp.Configure.MQTTClientConnectionEditPopup()" data-role="button"
+                       _class="ui-disabled" data-icon="edit">Edit Client</a>
+                </div>
+            </li>
+
+            <li id="configure_driver_mqttoptions"><span>Mqqt node</span>
+                <div id="Div1" data-role="horizontal" data-mini="true" data-inset="true">
+                    <a href="javascript:Ha.WebApp.Configure.MQTTNodeAdd()"
+                       data-role="button" _class="ui-disabled" data-icon="plus">Add node</a>
+
+                    <a href="javascript:Ha.WebApp.Configure.MQTTNodeRemove()" data-role="button"
+                       _class="ui-disabled" data-icon="minus">Remove node</a>
+
+                    <a href="javascript:Ha.WebApp.Configure.MQTTNodeEdit()" data-role="button"
+                       _class="ui-disabled" data-icon="edit">Edit node</a>
+                </div>
+            </li>
+
+
+            <li id="configure_driver_mqttoptions">
+                <label for="configure_driver_mqtt_debug">Debug</label>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a"></div>
+                    <div class="ui-block-b">
+                        <span style="float: right">
+                            <div class="containing-element" style="width: 200px">
+                                <select id="configure_driver_mqtt_debug" data-role="slider">
+                                    <option value="0">Disable</option>
+                                    <option value="1">Enable</option>
+                                </select>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+
+
+        <!-- add connection -->
+        <div id="configure_driver_mqqtt_addconn_popup" class="ui-corner-all" data-role="popup" data-overlay-theme="b"
+             data-position-to="window">
+            <div data-role="header" class="ui-corner-top">
+                <h1>Add connection</h1>
+            </div>
+
+            <div class="ui-content ui-corner-bottom">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a" style="padding-right:7.5px;padding-top:15px;width:30%;">Hostname</div>
+                    <div class="ui-block-b" style="padding-left:7.5px;width:70%;"><input
+                            data-ui-field="mqqt_connectionadd_hostname" type="text" value="" onchange=""
+                            style="font-size:11pt" -class="ui-disabled"/></div>
+                </div>
+
+                <div class="ui-grid-a">
+                    <div class="ui-block-a" style="padding-right:7.5px;padding-top:15px;width:30%;">Port</div>
+                    <div class="ui-block-b" style="padding-left:7.5px;width:70%;"><input
+                            data-ui-field="mqqt_connectionadd_port" type="number" min="1" max="65535" value="8080"
+                            onchange="" style="font-size:11pt" -class="ui-disabled"/></div>
+                </div>
+
+                <div class="ui-grid-a">
+                    <div class="ui-block-a" style="padding-right:7.5px;padding-top:15px;width:30%;">ClientId</div>
+                    <div class="ui-block-b" style="padding-left:7.5px;width:70%;"><input
+                            data-ui-field="mqqt_connectionadd_clientid" type="text" value="" onchange=""
+                            style="font-size:11pt" -class="ui-disabled"/></div>
+                </div>
+
+                <div class="ui-grid-a">
+                    <div class="ui-block-a" style="padding-right:7.5px;padding-top:15px;width:30%;">Username</div>
+                    <div class="ui-block-b" style="padding-left:7.5px;width:70%;"><input
+                            data-ui-field="mqqt_connectionadd_username" type="text" value="" onchange=""
+                            style="font-size:11pt" -class="ui-disabled"/></div>
+                </div>
+
+                <div class="ui-grid-a">
+                    <div class="ui-block-a" style="padding-right:7.5px;padding-top:15px;width:30%;">Password</div>
+                    <div class="ui-block-b" style="padding-left:7.5px;width:70%;"><input
+                            data-ui-field="mqqt_connectionadd_password" type="password" value="" onchange=""
+                            style="font-size:11pt" -class="ui-disabled"/></div>
+                </div>
+
+
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <a href="#" class="ui-btn ui-shadow ui-corner-all" data-rel="back">Cancel</a>
+                    </div>
+                    <div class="ui-block-b">
+                        <a id="configure_driver_mqqt_addconnection_button" href="#"
+                           class="ui-btn ui-shadow ui-corner-all" data-rel="back">Add</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- remove connection -->
+        <div id="configure_driver_mqqtt_removeconn_popup" class="ui-corner-all" data-role="popup" data-overlay-theme="b"
+             data-position-to="window">
+            <div data-role="header" class="ui-corner-top">
+                <h1>Remove connection</h1>
+            </div>
+            <div class="ui-content ui-corner-bottom">
+                <select id="configure_driver_mqqtt_removeconn"></select>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <a href="#" class="ui-btn ui-shadow ui-corner-all" data-rel="back">Cancel</a>
+                    </div>
+                    <div class="ui-block-b">
+                        <a id="configure_driver_mqqtt_removeconn_button" href="#" class="ui-btn ui-shadow ui-corner-all"
+                           data-rel="back">Remove</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- edit connection -->
+        <div id="configure_driver_mqqtt_editconn_popup" class="ui-corner-all" data-role="popup" data-overlay-theme="b"
+             data-position-to="window">
+            <div data-role="header" class="ui-corner-top">
+                <h1>Edit connection</h1>
+            </div>
+
+            <div class="ui-content ui-corner-bottom">
+
+                <select id="configure_driver_mqqtt_editconn"></select>
+
+                <div class="ui-grid-a">
+                    <div class="ui-block-a" style="padding-right:7.5px;padding-top:15px;width:30%;">Hostname</div>
+                    <div class="ui-block-b" style="padding-left:7.5px;width:70%;"><input
+                            data-ui-field="mqtt_connectionedit_hostname" type="text" value="" onchange=""
+                            style="font-size:11pt" -class="ui-disabled"/></div>
+                </div>
+
+                <div class="ui-grid-a">
+                    <div class="ui-block-a" style="padding-right:7.5px;padding-top:15px;width:30%;">Port</div>
+                    <div class="ui-block-b" style="padding-left:7.5px;width:70%;"><input
+                            data-ui-field="mqtt_connectionedit_port" type="number" min="1" max="65535" value="8080"
+                            onchange="" style="font-size:11pt" -class="ui-disabled"/></div>
+                </div>
+
+                <div class="ui-grid-a">
+                    <div class="ui-block-a" style="padding-right:7.5px;padding-top:15px;width:30%;">ClientId</div>
+                    <div class="ui-block-b" style="padding-left:7.5px;width:70%;"><input
+                            data-ui-field="mqtt_connectionedit_clientid" type="text" value="" onchange=""
+                            style="font-size:11pt" -class="ui-disabled"/></div>
+                </div>
+
+                <div class="ui-grid-a">
+                    <div class="ui-block-a" style="padding-right:7.5px;padding-top:15px;width:30%;">Username</div>
+                    <div class="ui-block-b" style="padding-left:7.5px;width:70%;"><input
+                            data-ui-field="mqtt_connectionedit_username" type="text" value="" onchange=""
+                            style="font-size:11pt" -class="ui-disabled"/></div>
+                </div>
+
+                <div class="ui-grid-a">
+                    <div class="ui-block-a" style="padding-right:7.5px;padding-top:15px;width:30%;">Password</div>
+                    <div class="ui-block-b" style="padding-left:7.5px;width:70%;"><input
+                            data-ui-field="mqtt_connectionedit_password" type="password" value="" onchange=""
+                            style="font-size:11pt" -class="ui-disabled"/></div>
+                </div>
+
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <a href="#" class="ui-btn ui-shadow ui-corner-all" data-rel="back">Cancel</a>
+                    </div>
+                    <div class="ui-block-b">
+                        <a id="configure_driver_mqtt_editconn_button" href="#" class="ui-btn ui-shadow ui-corner-all"
+                           data-rel="back">Update</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Add/edit/update Node -->
+        <div id="configure_driver_mqqtt_node_popup" class="ui-corner-all" data-role="popup" data-overlay-theme="b"
+             data-position-to="window" style="width:400px;">
+            <div data-role="header" class="ui-corner-top">
+                <h1 id="configure_driver_mqqtt_node_popup_title">Add node</h1>
+            </div>
+
+            <div class="ui-content ui-corner-bottom">
+
+
+                <div class="ui-grid-a">
+                    <div class="ui-block-a" style="padding-right:7.5px;padding-top:15px;width:30%;">Node</div>
+                    <div class="ui-block-b" style="padding-left:7.5px;width:70%;"><select
+                            id="configure_driver_mqqtt_node_nodelist"></select></div>
+                </div>
+
+                <div class="ui-grid-a">
+                    <div class="ui-block-a" style="padding-right:7.5px;padding-top:15px;width:30%;">Connection</div>
+                    <div class="ui-block-b" style="padding-left:7.5px;width:70%;"><select
+                            id="configure_driver_mqqtt_node_conectionlist"></select></div>
+                </div>
+
+                <div data-role="content" class="ui-corner-bottom ui-content">
+                    <ul id="configure_driver_mqqtt_propertylist" data-role="listview"
+                        style="height: 330px; overflow: auto; padding-left: 0px;padding-right: 0px;">
+
+
+                        <!--
+                        <li >
+
+                            <div class="ui-corner-all custom-corners">
+                                <div class="ui-bar ui-bar-a">
+                                    <h1>Property</h1>
+                                </div>
+                                <div class="ui-body ui-body-a">
+
+                            <div class="ui-grid-a">
+                            <div class="ui-block-a" style="padding-right:7.5px;padding-top:15px;width:30%;">Property</div>
+                            <div class="ui-block-b" style="padding-left:7.5px;width:70%;"><input data-ui-field="mqtt_connectionedit_hostname" type="text" value="" onchange="" style="font-size:11pt" -class="ui-disabled" /></div>
+                            </div>
+
+                            </div>
+                            </div>
+
+                            <div class="ui-corner-all custom-corners">
+                                <div class="ui-bar ui-bar-a">
+                                    <h1>Publish</h1>
+                                </div>
+                                <div class="ui-body ui-body-a">
+                                    <div class="ui-grid-a">
+                                        <div class="ui-block-a" style="padding-right:7.5px;padding-top:15px;width:30%;">Topic</div>
+                                        <div class="ui-block-b" style="padding-left:7.5px;width:70%;"><input data-ui-field="mqtt_connectionedit_hostname" type="text" value="" onchange="" style="font-size:11pt" -class="ui-disabled" /></div>
+                                    </div>
+
+
+                                     <div class="ui-grid-a">
+                                        <div class="ui-block-a" style="padding-right:7.5px;padding-top:15px;width:30%;">QoS</div>
+                                        <div class="ui-block-b" style="padding-left:7.5px;width:70%;">
+
+                                             <select name="select-native-1" id="select-native-1">
+                                                <option value="0">QoS0, At most once</option>
+                                                <option value="1">QoS1, At least once</option>
+                                                <option value="2">QoS2, Exactly once</option>
+
+                                            </select>
+
+                                        </div>
+                                     </div>
+
+
+                                     <div class="ui-grid-solo">
+                                        <div class="ui-block-a" ><label><input data-ui-field="mqtt_connectionedit_hostname" type="checkbox" value="" onchange="" style="font-size:11pt" -class="ui-disabled" />Retain</label></div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="ui-corner-all custom-corners">
+                                <div class="ui-bar ui-bar-a">
+                                    <h1>Subscribe</h1>
+                                </div>
+                                <div class="ui-body ui-body-a">
+                                    <div class="ui-grid-a">
+                                        <div class="ui-block-a" style="padding-right:7.5px;padding-top:15px;width:30%;">Topic</div>
+                                        <div class="ui-block-b" style="padding-left:7.5px;width:70%;"><input data-ui-field="mqtt_connectionedit_hostname" type="text" value="" onchange="" style="font-size:11pt" -class="ui-disabled" /></div>
+                                    </div>
+
+                                     <div class="ui-grid-a">
+                                        <div class="ui-block-a" style="padding-right:7.5px;padding-top:15px;width:30%;">QoS</div>
+                                        <div class="ui-block-b" style="padding-left:7.5px;width:70%;">
+
+                                             <select name="select-native-1" id="select2">
+                                                <option value="0">QoS0, At most once</option>
+                                                <option value="1">QoS1, At least once</option>
+                                                <option value="2">QoS2, Exactly once</option>
+
+                                            </select>
+
+                                        </div>
+                                     </div>
+
+
+                                </div>
+                            </div>
+
+                        </li>
+                        -->
+
+                    </ul>
+                </div>
+
+
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <a id="configure_driver_mqqtt_node_removeproperty_button"
+                           href="javascript:Ha.WebApp.Configure.MqttPropertyRemove()"
+                           class="ui-btn ui-shadow ui-corner-all">Remove property</a>
+                    </div>
+                    <div class="ui-block-b">
+                        <a id="configure_driver_mqqtt_node_addproperty_button"
+                           href="javascript:Ha.WebApp.Configure.MqttPropertyAdd()"
+                           class="ui-btn ui-shadow ui-corner-all">Add property</a>
+                    </div>
+                </div>
+
+
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <a href="#" class="ui-btn ui-shadow ui-corner-all" data-rel="back">Cancel</a>
+                    </div>
+                    <div class="ui-block-b">
+                        <a id="configure_driver_mqqtt_node_update_button" href="#"
+                           class="ui-btn ui-shadow ui-corner-all" data-rel="back">Add node</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- navbar -->
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#page_config_drivers" data-role="button" data-icon="back" data-iconpos="left"
+                       data-mini="true" data-direction="reverse" data-transition="slide">Back</a></li>
+            </ul>
+        </div>
+        <!-- /navbar -->
+    </div>
+</div>

@@ -1,0 +1,45 @@
+﻿<!-- control -->
+<div data-role="page" id="page_control">
+    {include pages/header.html}
+    <div class="ui-content" role="main">
+        <!--                    <input type="range" id="slider-0" value="60" min="0" max="100"> -->
+        <div id="control_groupslist" class="ui-group-theme-inherit" data-role="collapsibleset"></div>
+
+
+        <!-- change password  -->
+        <div data-role="popup" id="change_password_popup" data-position-to="window" data-transition="pop"
+             style="max-width:400px;" class="ui-corner-all">
+            <div data-role="header" class="ui-corner-top">
+                <h1>Change password</h1>
+            </div>
+            <div data-role="content" class="ui-corner-bottom ui-content">
+                <p>
+                    <label for="change_password">New password:</label>
+                    <input id="change_password" type="password"/>
+                </p>
+                <a href="#" data-role="button" data-rel="back">Cancel</a>
+                <a id="change_password_button" href="#" data-role="button" _class="ui-disabled" data-rel="back">Change
+                    password</a>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- navbar -->
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="javascript:Ha.WebApp.Control.OpenConfig()" data-role="button" data-icon="gear"
+                       data-iconpos="left"
+                       data-mini="true" data-transition="slide">Configure</a></li>
+                <li><a href="#change_password_popup" data-role="button" data-icon="lock" data-iconpos="left"
+                       data-mini="true" data-rel="popup">Change password</a></li>
+                <li><a href="javascript:Ha.WebApp.Control.LogOff()" data-role="button" data-icon="action"
+                       data-iconpos="left"
+                       data-mini="true">Logoff</a></li>
+
+            </ul>
+        </div>
+        <!-- /navbar -->
+    </div>
+</div>

@@ -1,0 +1,186 @@
+﻿<div data-role="page" id="page_groupmodules_groupmodules">
+    {include pages/header.html}
+    <div class="ui-content" role="main">
+        <ul data-role="listview" data-inset="true">
+            <li data-role="list-divider">Group name</li>
+            <li>
+                <input id="config_groupmodules_groupname" type="text"/>
+            </li>
+            <li>
+                <ul id="config_groupmodulelist" data-role="listview" data-split-icon="gear" data-inset="true"></ul>
+            </li>
+        </ul>
+    </div>
+    <!-- edit module -->
+    <div data-role="popup" id="config_group_module_edit" data-position-to="window" style="min-width: 280px;
+        max-width: 400px;" class="ui-corner-all">
+        <a href="#" data-rel="back" data-role="button" data-icon="delete" data-iconpos="notext"
+           class="ui-btn-right" data-transition="flow">Close</a>
+        <div data-role="header" class="ui-corner-top">
+            <h1 id="config_module_title">
+                Module settings</h1>
+        </div>
+        <div data-role="content" class="ui-corner-bottom ui-content">
+            <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td valign="top">
+                        <img width="48" height="48" id="module_icon" style="margin-right: 10px; margin-top: 10px;"
+                             src="">
+                    </td>
+                    <td>
+                        <label>
+                            Name</label>
+                        <input type="text" placeholder="enter name" id="config_module_name" name="config_module_name"
+                               value=""/>
+                    </td>
+                </tr>
+                <tr id="module_options_2">
+                    <td valign="bottom" colspan="2">
+                        <select id="config_module_type" onchange="Ha.WebApp.Configure.ModuleUpdateType($(this).val())">
+                            <option value="">(select type)</option>
+                            <option value="S_GENERIC">Generic (DI,AI)</option>
+                            <option value="S_DIGITAL_INPUT">Digital input (DI)</option>
+                            <option value="S_DOOR">Door/Window(DI)</option>
+                            <option value="S_LEAK">Leak(DI)</option>
+                            <option value="S_MOTION">Motion(DI)</option>
+
+                            <option value="S_ANALOG_INPUT">Analog input (AI)</option>
+                            <option value="S_TEMP">Temperature (AI)</option>
+                            <option value="S_HUM">Humidity (AI)</option>
+                            <option value="S_BARO">Pressure (AI)</option>
+                            <option value="S_LIGHT_LEVEL">Light level (AI)</option>
+
+                            <option value="S_DISTANCE">Disatnce meter (AI)</option>
+                            <option value="S_DUST">Dust level (AI)</option>
+                            <option value="S_POWER">Power meter (AI)</option>
+                            <option value="S_WATER">Water meter (AI)</option>
+                            <option value="S_UV">UV radiation meter (AI)</option>
+
+
+                            <option value="S_ANALOG_OUTPUT">Analog output (AO)</option>
+                            <option value="S_TEMP_AO">Temperature output (AO)</option>
+                            <option value="S_HUM_AO">Humidity output (AO)</option>
+                            <option value="S_DIMMER">Dimmer (AO, DO)</option>
+                            <option value="S_COVER">Roller shutter (AO, DO)</option>
+
+                            <option value="S_DIGITAL_OUTPUT">Digital output (DO)</option>
+                        </select>
+                    </td>
+
+
+                    <td valign="bottom" style="padding-left: 5px">
+                        <!--
+                        <a id="module_options_button" href="#" data-role="button" data-inline="true">Setup</a>
+                    -->
+                    </td>
+                </tr>
+            </table>
+            <span id="module_options_3" style="margin-top: 4px"><a id="config_module_update_button"
+                                                                   href="#" data-role="button" data-rel="back"
+                                                                   data-inline="false" data-transition="flow"
+                                                                   data-icon="check">Update module</a> </span><a
+                id="config_module_remove_button" href="#"
+                data-role="button" data-rel="back" data-inline="false" data-transition="flow"
+                data-icon="minus">Remove from group</a>
+        </div>
+    </div>
+    <!-- properties -->
+    <div data-role="popup" id="config_group_module_properties" data-position-to="window"
+         style="max-width: 450px;" class="ui-corner-all">
+        <a href="#" data-rel="back" data-role="button" data-icon="delete" data-iconpos="notext"
+           class="ui-btn-right">Close</a>
+        <div data-role="header" class="ui-corner-top">
+            <h1 id="H1">
+                Parameters</h1>
+        </div>
+        <div data-role="content" class="ui-corner-bottom ui-content">
+            <ul id="config_group_module_params" data-role="listview" style="height: 330px; overflow: auto;">
+            </ul>
+        </div>
+        <div data-role="footer" class="ui-corner-bottom" align="center">
+            <div class="ui-grid-b">
+                <div class="ui-block-a">
+                    <a href="javascript:Ha.WebApp.Configure.ModulePropertyDelete1()"
+                       id="automation_group_module_propdelete"
+                       data-role="button" data-icon="delete" class="ui-disabled">Delete</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="javascript:Ha.WebApp.Configure.ModulePropertyAdd1('Custom.Property', '')"
+                       data-role="button" data-icon="plus" data-iconpos="right">Add</a>
+                </div>
+                <div class="ui-block-c">
+                    <a href="javascript:Ha.Data.ServiceCall('Config/Module/Update/', JSON.stringify(Ha.WebApp.Configure.SelectedModule), 'POST', null)"
+                       data-role="button" data-icon="check" data-iconpos="right">Save</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- delete group -->
+    <div data-role="popup" id="groupmodules_group_delete" style="max-width: 400px;" class="ui-corner-all">
+        <div data-role="header" class="ui-corner-top">
+            <h1>
+                Delete Group?</h1>
+        </div>
+        <div data-role="content" class="ui-corner-bottom ui-content">
+            <h3 class="ui-title">
+                Are you sure you want to delete this group?</h3>
+            <p>
+                This action cannot be undone.</p>
+            <a href="#" data-role="button" data-inline="true" data-rel="back">Cancel</a> <a
+                id="groupmodules_group_delete_button"
+                href="#" data-role="button" data-inline="true" data-rel="back" data-transition="flow">
+            Delete</a>
+        </div>
+    </div>
+    <!-- new module -->
+    <div id="groupmodules_group_modulechoose" class="ui-corner-all" data-role="popup"
+         data-overlay-theme="b" data-position-to="window">
+        <div data-role="header" class="ui-corner-top">
+            <h1>
+                Add New Module</h1>
+        </div>
+        <div class="ui-content ui-corner-bottom">
+            <select id="groupmodules_group_moduleadd">
+            </select>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#" class="ui-btn ui-shadow ui-corner-all" data-rel="back">Cancel</a>
+                </div>
+                <div class="ui-block-b">
+                    <a id="groupmodules_group_moduleadd_button" href="#" class="ui-btn ui-shadow ui-corner-all"
+                       data-rel="back">Add</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- action menu -->
+    <div data-role="popup" id="config_groupmodules_actionmenu">
+        <a href="#" data-rel="back" data-role="button" data-icon="delete" data-iconpos="notext"
+           class="ui-btn-right">Close</a>
+        <h5 align="center">
+            Actions menu</h5>
+        <ul data-role="listview" data-inset="false" style="min-width: 210px;">
+            <li data-icon="minus" data-iconpos="left"><a href="#groupmodules_group_delete"
+                                                         onclick="Ha.WebApp.Utility.OpenSubPopUp('#config_groupmodules_actionmenu', '#groupmodules_group_delete');"
+                                                         data-icon="delete" data-iconpos="left" data-mini="true"
+                                                         data-position-to="window">
+                Delete group</a></li>
+            <li data-icon="plus" data-iconpos="left"><a href="#groupmodules_group_modulechoose"
+                                                        onclick="Ha.WebApp.Utility.OpenSubPopUp('#config_groupmodules_actionmenu', '#groupmodules_group_modulechoose');"
+                                                        data-icon="plus" data-iconpos="left">Add module </a></li>
+        </ul>
+    </div>
+    <!-- navbar -->
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#page_groupmodules_groups" data-role="button" data-icon="back" data-iconpos="left"
+                       data-mini="true" data-direction="reverse" data-transition="slide">Back</a></li>
+                <li><a href="#config_groupmodules_actionmenu" data-role="button" data-rel="popup"
+                       data-transition="slideup" data-icon="grid" data-iconpos="left" data-mini="true">
+                    More</a></li>
+            </ul>
+        </div>
+        <!-- /navbar -->
+    </div>
+</div>

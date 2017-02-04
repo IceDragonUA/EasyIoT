@@ -1,0 +1,109 @@
+﻿<div data-role="page" id="page_config_drivers_virtual">
+    {include pages/header.html}
+    <div class="ui-content" role="main">
+        <ul id="config_driversslist" data-role="listview" data-inset="true">
+
+            <!-- Virtual -->
+            <li data-role="list-divider">Virtual driver settings</li>
+            <li>
+                <label for="configure_driver_virual_enabled">Virtual driver</label>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a"></div>
+                    <div class="ui-block-b">
+                        <span style="float: right">
+                            <div class="containing-element" style="width: 200px">
+                                <select id="configure_driver_virual_enabled" data-role="slider">
+                                    <option value="0">Disable</option>
+                                    <option value="1">Enable</option>
+                                </select>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </li>
+
+
+            <li id="configure_driver_virtualoptions"><span>Virtual Nodes</span>
+                <div id="Div2" data-role="horizontal" data-mini="true" data-inset="true">
+                    <a href="javascript:Ha.WebApp.Configure.VirtualNodeAdd()"
+                       data-role="button" _class="ui-disabled" data-icon="plus">Add Node</a>
+
+                    <a href="javascript:Ha.WebApp.Configure.VirtualRemovePopup()" data-role="button"
+                       _class="ui-disabled" data-icon="minus">Remove Node</a>
+                </div>
+            </li>
+
+            <li id="configure_driver_virtualoptions">
+                <label for="configure_driver_virtual_debug">Debug</label>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a"></div>
+                    <div class="ui-block-b">
+                        <span style="float: right">
+                            <div class="containing-element" style="width: 200px">
+                                <select id="configure_driver_virtual_debug" data-role="slider">
+                                    <option value="0">Disable</option>
+                                    <option value="1">Enable</option>
+                                </select>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+
+        <!-- Virtual driver Add node -->
+        <div id="configure_driver_virtual_addnode_popup" data-role="popup" data-position-to="window"
+             data-transition="pop" style="max-width: 400px;" class="ui-corner-all">
+            <a href="#" data-rel="back" data-role="button" data-icon="delete" data-iconpos="notext"
+               class="ui-btn-right">Close</a>
+            <div data-role="header" class="ui-corner-top">
+                <h1 id="configure_driver_virtual_title">
+                    Add Node</h1>
+            </div>
+            <div data-role="content" class="ui-corner-bottom ui-content">
+                <h3 id="configure_driver_virtual_instructions" class="ui-title"></h3>
+                <h2 id="configure_driver_virtual_nodeid" align="center">
+                </h2>
+                <p id="configure_driver_virtual_message"></p>
+                <br/>
+                <a id="configure_driver_virtual_close_button"
+                   href="#" data-role="button" data-rel="back">Close</a>
+            </div>
+        </div>
+
+
+        <!-- remove virtual driver module -->
+        <div id="configure_driver_virtual_removenode_popup" class="ui-corner-all " data-role="popup"
+             data-overlay-theme="b" data-position-to="window">
+            <div data-role="header" class="ui-corner-top">
+                <h1>Remove Module</h1>
+            </div>
+            <div class="ui-content ui-corner-bottom">
+                <select id="configure_driver_virtual_removenode"></select>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <a href="#" class="ui-btn ui-shadow ui-corner-all" data-rel="back">Cancel</a>
+                    </div>
+                    <div class="ui-block-b">
+                        <a id="configure_driver_virtual_removenode_button" href="#"
+                           class="ui-btn ui-shadow ui-corner-all" data-rel="back">Remove</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- navbar -->
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#page_config_drivers" data-role="button" data-icon="back" data-iconpos="left"
+                       data-mini="true" data-direction="reverse" data-transition="slide">Back</a></li>
+            </ul>
+        </div>
+        <!-- /navbar -->
+    </div>
+</div>

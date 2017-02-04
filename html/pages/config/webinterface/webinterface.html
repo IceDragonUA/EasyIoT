@@ -1,0 +1,130 @@
+﻿<!-- Config -->
+<div data-role="page" id="page_config_webinterface">
+    {include pages/header.html}
+    <div class="ui-content" role="main">
+        <ul data-role="listview" data-inset="true">
+            <li data-role="list-divider">Configure WEB interface</li>
+            <li>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <div>
+                            <label>
+                                <span>Http service port</span>
+                            </label>
+                            <p>Note: After changing port application must be restarted to make changes effective!</p>
+                            <br/>
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <span style="float: right">
+                            <div class="containing-element" style="width: 200px">
+                                <input id="configure_webinterface_http_port" type="number"/>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <div>
+                            <label>
+                                <span>SSL service port</span>
+                            </label>
+                            <p>Note: After changing port application must be restarted to make changes effective. You
+                                also need run httpcfg on new port!</p>
+                            <br/>
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <span style="float: right">
+                            <div class="containing-element" style="width: 200px">
+                                <input id="configure_webinterface_ssl_port" type="number"/>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <label for="configure_webinterface_forcessl">
+                    Force SSL connection</label>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                    </div>
+                    <div class="ui-block-b">
+                        <span style="float: right">
+                            <div class="containing-element" style="width: 200px">
+                                <select id="configure_webinterface_forcessl" data-role="slider">
+                                    <option value="0">Disable</option>
+                                    <option value="1">Enable</option>
+                                </select>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <span>User management</span>
+                <div id="Div1" data-role="horizontal" data-mini="true" data-inset="true">
+                    <a href="#user_add_popup"
+                       data-role="button" data-rel="popup" data-icon="plus">Add user</a>
+
+                    <a href="#user_remove_popup" data-role="button" data-rel="popup"
+                       _class="ui-disabled" data-icon="minus">Remove user</a>
+                </div>
+            </li>
+        </ul>
+
+        <!-- add user -->
+        <div data-role="popup" id="user_add_popup" data-position-to="window" data-transition="pop"
+             style="max-width:400px;" class="ui-corner-all">
+            <div data-role="header" class="ui-corner-top">
+                <h1>Add new user</h1>
+            </div>
+            <div data-role="content" class="ui-corner-bottom ui-content">
+                <p>
+                    <label for="add_user_name">Username:</label>
+                    <input id="add_user_name"/>
+                </p>
+                <p>
+                    <label for="add_user_password">Password:</label>
+                    <input id="add_user_password" type="password"/>
+                </p>
+                <a href="#" data-role="button" data-rel="back">Cancel</a>
+                <a id="add_user_button" href="#" data-role="button" _class="ui-disabled" data-icon="plus"
+                   data-rel="back">Add</a>
+            </div>
+        </div>
+
+        <!-- remove user -->
+        <div id="user_remove_popup" class="ui-corner-all " data-role="popup" data-overlay-theme="b"
+             data-position-to="window">
+            <div data-role="header" class="ui-corner-top">
+                <h1>Remove User</h1>
+            </div>
+            <div class="ui-content ui-corner-bottom">
+                <select id="user_remove"></select>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <a href="#" class="ui-btn ui-shadow ui-corner-all" data-rel="back">Cancel</a>
+                    </div>
+                    <div class="ui-block-b">
+                        <a id="user_remove_button" href="#" class="ui-btn ui-shadow ui-corner-all" data-rel="back">Remove</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- navbar -->
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#page_config" data-role="button" data-icon="back" data-iconpos="left"
+                       data-mini="true" data-direction="reverse" data-transition="slide">Back</a></li>
+            </ul>
+        </div>
+        <!-- /navbar -->
+    </div>
+</div>

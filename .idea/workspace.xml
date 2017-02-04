@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f287e36a-c3ea-42c2-b092-22bff8a3c580" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EasyIoTDatabase.sqlite" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_diagonals-thick_18_b81900_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_diagonals-thick_20_666666_40x40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_flat_10_000000_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_glass_100_f6f6f6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_glass_100_fdf5ce_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_gloss-wave_35_f6a828_500x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/jquery-ui/images/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/jquery-ui/images/ui-icons_228ef1_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/jquery-ui/images/ui-icons_ef8c08_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/jquery-ui/images/ui-icons_ffd27a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/jquery-ui/images/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/action-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/action-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/alert-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/alert-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/arrow-d-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/arrow-d-l-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/arrow-d-l-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/arrow-d-r-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/arrow-d-r-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/arrow-d-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/arrow-l-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/arrow-l-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/arrow-r-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/arrow-r-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/arrow-u-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/arrow-u-l-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/arrow-u-l-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/arrow-u-r-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/arrow-u-r-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/arrow-u-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/audio-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/audio-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/back-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/back-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/bars-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/bars-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/bullets-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/bullets-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/calendar-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/calendar-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/camera-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/camera-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/carat-d-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/carat-d-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/carat-l-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/carat-l-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/carat-r-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/carat-r-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/carat-u-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/carat-u-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/check-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/check-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/clock-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/clock-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/cloud-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/cloud-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/comment-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/comment-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/delete-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/delete-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/edit-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/edit-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/eye-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/eye-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/forbidden-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/forbidden-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/forward-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/forward-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/gear-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/gear-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/grid-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/grid-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/heart-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/heart-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/home-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/home-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/info-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/info-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/location-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/location-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/lock-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/lock-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/mail-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/mail-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/minus-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/minus-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/navigation-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/navigation-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/phone-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/phone-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/plus-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/plus-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/power-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/power-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/recycle-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/recycle-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/refresh-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/refresh-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/search-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/search-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/shop-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/shop-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/star-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/star-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/tag-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/tag-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/user-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/user-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/video-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-png/video-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/custom/gas.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/custom/gas.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/custom/radiator.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/custom/radiator.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/custom/radiator1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/ai.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/ao.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/battery_level_0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/battery_level_10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/battery_level_100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/battery_level_20.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/battery_level_40.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/battery_level_60.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/battery_level_80.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/cover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/digital_input.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/digital_output.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/dimmer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/distance.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/door_closed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/door_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/dust.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/humidity.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/leak_alarm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/leak_ok.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/motion.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/motion_alarm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/power.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/pressure.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/radiation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/sensor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/socket_off.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/socket_on.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/temperature.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/uvindex.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/images/widgets/water.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libbcm2835.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/librf24-bcm.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/easyiot.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/codemirror-4.5/codemirror.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/codemirror-4.5/csharpcolors.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/codemirror-4.5/docs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/easyiot.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/jquery-ui/jquery-ui.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/action-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/action-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/alert-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/alert-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/arrow-d-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/arrow-d-l-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/arrow-d-l-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/arrow-d-r-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/arrow-d-r-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/arrow-d-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/arrow-l-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/arrow-l-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/arrow-r-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/arrow-r-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/arrow-u-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/arrow-u-l-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/arrow-u-l-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/arrow-u-r-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/arrow-u-r-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/arrow-u-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/audio-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/audio-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/back-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/back-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/bars-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/bars-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/bullets-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/bullets-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/calendar-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/calendar-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/camera-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/camera-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/carat-d-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/carat-d-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/carat-l-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/carat-l-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/carat-r-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/carat-r-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/carat-u-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/carat-u-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/check-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/check-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/clock-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/clock-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/cloud-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/cloud-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/comment-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/comment-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/delete-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/delete-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/edit-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/edit-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/eye-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/eye-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/forbidden-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/forbidden-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/forward-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/forward-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/gear-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/gear-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/grid-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/grid-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/heart-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/heart-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/home-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/home-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/info-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/info-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/location-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/location-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/lock-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/lock-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/mail-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/mail-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/minus-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/minus-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/navigation-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/navigation-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/phone-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/phone-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/plus-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/plus-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/power-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/power-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/recycle-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/recycle-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/refresh-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/refresh-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/search-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/search-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/shop-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/shop-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/star-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/star-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/tag-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/tag-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/user-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/user-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/video-black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/images/icons-svg/video-white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/jquery.mobile-1.4.3.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.external-png-1.4.3.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.icons-1.4.3.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.inline-png-1.4.3.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.inline-svg-1.4.3.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.structure-1.4.3.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.theme-1.4.3.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/Ha.WebApp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/codemirror-4.5/codemirror-compressed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/codemirror-4.5/parsecsharp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/codemirror-4.5/tokenizecsharp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/eventsource.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/date.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/excanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/excanvas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.colorhelpers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.colorhelpers.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.canvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.canvas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.categories.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.categories.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.crosshair.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.crosshair.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.errorbars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.errorbars.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.fillbetween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.fillbetween.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.image.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.navigate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.navigate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.pie.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.resize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.selection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.selection.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.stack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.stack.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.symbol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.symbol.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.threshold.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.threshold.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.time.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/jquery-ui.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/jquery.mobile-1.4.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/jquery.mobile-1.4.3.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/js.cookie/js.cookie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/js/knob/jquery.knob.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/pages/config/automation/automationgroups.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/pages/config/automation/automationlist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/pages/config/automation/automationprogram.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/pages/config/automation/automationprogramparam.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/pages/config/config.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/pages/config/drivers/drivers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/pages/config/drivers/esp8266.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/pages/config/drivers/mqtt.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/pages/config/drivers/mysensors.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/pages/config/drivers/rpigpio.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/pages/config/drivers/virtual.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/pages/config/general/generalsettings.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/pages/config/groupmodules/groupmodules.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/pages/config/groupmodules/groups.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/pages/config/smsinterface/smsinterface.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/pages/config/webinterface/webinterface.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/pages/control/chart.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/pages/control/control.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/pages/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/startup.sh" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="easyiot" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="easyiot.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/css/easyiot.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1309">
+              <caret line="77" column="21" lean-forward="false" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/pages/config/config.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="drivers.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/drivers.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mqtt.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/mqtt.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysensors.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/mysensors.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="835">
+              <caret line="178" column="49" lean-forward="false" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ha.WebApp.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/js/Ha.WebApp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="14943">
+              <caret line="879" column="0" lean-forward="false" selection-start-line="879" selection-start-column="0" selection-end-line="879" selection-end-column="0" />
+              <folding>
+                <marker date="1486205306065" expanded="true" signature="7932:7943" ph=" " />
+                <marker date="1486205306065" expanded="true" signature="27192:27227" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="27385:27394" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="27446:27457" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="27538:27591" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="27658:27698" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="27860:27902" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="28292:28327" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="28489:28498" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="28550:28561" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="28642:28695" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="28762:28802" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="28948:28990" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="29283:29294" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="29467:29478" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="29717:29771" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="29830:29839" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="29946:29970" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="30652:30687" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="30841:30850" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="30902:30913" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="30994:31047" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="31114:31154" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="31300:31342" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="31635:31646" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="31819:31830" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="31921:31975" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="32050:32059" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="32192:32201" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="32303:32327" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="32677:32701" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="33051:33075" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="40504:40515" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="62697:62744" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="62812:62842" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="63039:63053" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="63209:63256" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="63331:63360" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="63571:63585" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="63741:63788" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="63857:63886" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="64069:64083" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="64251:64298" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="64366:64395" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="64576:64590" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="64758:64805" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="64878:64907" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="65109:65123" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="71392:71401" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="85894:85920" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="98103:98112" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="99079:99088" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="100651:100698" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="100758:100787" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="100923:100937" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="101294:101341" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="101398:101427" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="101567:101581" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="101711:101758" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="101813:101842" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="103038:103085" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="103142:103171" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="103305:103319" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="103449:103496" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="103551:103580" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="125112:125137" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="125607:125620" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="125675:125703" ph="..." />
+                <marker date="1486205306065" expanded="true" signature="125789:125816" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="esp8266.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/esp8266.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/html/css/jquery-ui/jquery-ui.min.css" />
+        <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/html/pages/config/smsinterface/smsinterface.html" />
+        <option value="$PROJECT_DIR$/html/js/Ha.WebApp.js" />
+        <option value="$PROJECT_DIR$/html/pages/config/drivers/drivers.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="programs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f287e36a-c3ea-42c2-b092-22bff8a3c580" name="Default" comment="" />
+      <created>1486203755795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1486203755795</updated>
+      <workItem from="1486203758186" duration="66000" />
+      <workItem from="1486204937136" duration="1121000" />
+      <workItem from="1486206160168" duration="147000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1334000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12012645" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/html/css/easyiot.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="21" lean-forward="false" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/config/config.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/drivers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/mqtt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/mysensors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/Ha.WebApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14943">
+          <caret line="879" column="0" lean-forward="false" selection-start-line="879" selection-start-column="0" selection-end-line="879" selection-end-column="0" />
+          <folding>
+            <marker date="1486205306065" expanded="true" signature="7932:7943" ph=" " />
+            <marker date="1486205306065" expanded="true" signature="27192:27227" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="27385:27394" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="27446:27457" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="27538:27591" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="27658:27698" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="27860:27902" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="28292:28327" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="28489:28498" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="28550:28561" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="28642:28695" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="28762:28802" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="28948:28990" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="29283:29294" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="29467:29478" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="29717:29771" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="29830:29839" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="29946:29970" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="30652:30687" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="30841:30850" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="30902:30913" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="30994:31047" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="31114:31154" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="31300:31342" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="31635:31646" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="31819:31830" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="31921:31975" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="32050:32059" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="32192:32201" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="32303:32327" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="32677:32701" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="33051:33075" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="40504:40515" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="62697:62744" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="62812:62842" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="63039:63053" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="63209:63256" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="63331:63360" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="63571:63585" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="63741:63788" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="63857:63886" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="64069:64083" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="64251:64298" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="64366:64395" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="64576:64590" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="64758:64805" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="64878:64907" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="65109:65123" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="71392:71401" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="85894:85920" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="98103:98112" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="99079:99088" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="100651:100698" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="100758:100787" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="100923:100937" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="101294:101341" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="101398:101427" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="101567:101581" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="101711:101758" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="101813:101842" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="103038:103085" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="103142:103171" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="103305:103319" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="103449:103496" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="103551:103580" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="125112:125137" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="125607:125620" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="125675:125703" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="125789:125816" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/esp8266.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_diagonals-thick_20_666666_40x40.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_diagonals-thick_18_b81900_40x40.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_flat_10_000000_40x100.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_glass_100_f6f6f6_1x400.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_glass_100_fdf5ce_1x400.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_gloss-wave_35_f6a828_500x100.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_highlight-soft_75_ffe45c_1x100.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_highlight-soft_100_eeeeee_1x100.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-icons_228ef1_256x240.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-icons_222222_256x240.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-icons_ffffff_256x240.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-icons_ffd27a_256x240.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/jquery-ui.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-714">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/codemirror-4.5/codemirror.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="25" column="67" lean-forward="true" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/config/smsinterface/smsinterface.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/images/custom/gas.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/images/custom/radiator.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/images/custom/radiator1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/images/widgets/ai.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/images/widgets/ao.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/images/widgets/battery_level_0.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/control/control.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/control/chart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/easyiot.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="21" lean-forward="false" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/config/config.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/rpigpio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/virtual.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="53" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/esp8266.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/mqtt.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/drivers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/Ha.WebApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14943">
+          <caret line="879" column="0" lean-forward="false" selection-start-line="879" selection-start-column="0" selection-end-line="879" selection-end-column="0" />
+          <folding>
+            <marker date="1486205306065" expanded="true" signature="7932:7943" ph=" " />
+            <marker date="1486205306065" expanded="true" signature="27192:27227" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="27385:27394" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="27446:27457" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="27538:27591" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="27658:27698" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="27860:27902" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="28292:28327" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="28489:28498" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="28550:28561" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="28642:28695" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="28762:28802" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="28948:28990" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="29283:29294" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="29467:29478" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="29717:29771" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="29830:29839" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="29946:29970" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="30652:30687" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="30841:30850" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="30902:30913" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="30994:31047" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="31114:31154" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="31300:31342" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="31635:31646" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="31819:31830" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="31921:31975" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="32050:32059" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="32192:32201" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="32303:32327" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="32677:32701" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="33051:33075" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="40504:40515" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="62697:62744" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="62812:62842" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="63039:63053" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="63209:63256" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="63331:63360" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="63571:63585" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="63741:63788" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="63857:63886" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="64069:64083" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="64251:64298" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="64366:64395" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="64576:64590" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="64758:64805" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="64878:64907" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="65109:65123" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="71392:71401" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="85894:85920" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="98103:98112" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="99079:99088" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="100651:100698" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="100758:100787" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="100923:100937" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="101294:101341" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="101398:101427" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="101567:101581" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="101711:101758" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="101813:101842" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="103038:103085" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="103142:103171" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="103305:103319" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="103449:103496" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="103551:103580" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="125112:125137" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="125607:125620" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="125675:125703" ph="..." />
+            <marker date="1486205306065" expanded="true" signature="125789:125816" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/mysensors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="835">
+          <caret line="178" column="49" lean-forward="false" selection-start-line="178" selection-start-column="30" selection-end-line="178" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,1906 @@
+﻿<div data-role="page" id="page_config_drivers_rpigpio">
+    {include pages/header.html}
+    <div class="ui-content" role="main">
+        <ul id="config_driversslist" data-role="listview" data-inset="true">
+            <!-- GPIO-->
+            <li data-role="list-divider">Raspberry PI GPIO Driver settings</li>
+            <li>
+                <label for="configure_driver_rpigpio_enabled">
+                    Raspberry PI GPIO Driver</label>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                    </div>
+                    <div class="ui-block-b">
+                        <span style="float: right">
+                            <div class="containing-element" style="width: 200px">
+                                <select id="configure_driver_rpigpio_enabled" data-role="slider">
+                                    <option value="0">Disable</option>
+                                    <option value="1">Enable</option>
+                                </select>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </li>
+            <li id="configure_driver_rpigpiooptions">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <div>
+                            <label>
+                                <span>Raspberry Pi Version</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="ui-block-b">
+                        <span style="float: right">
+                            <div class="containing-element" style="width: 200px">
+                                <select id="configure_driver_rpigpio_revision">
+                                    <option value="0">A, B Rev 1</option>
+                                    <option value="1">A, B Rev 2</option>
+                                    <option value="2">A+,B+</option>
+                                </select>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </li>
+            <li id="configure_driver_rpigpiooptions">
+                <label for="configure_driver_rpigpio_debug">
+                    Debug</label>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                    </div>
+                    <div class="ui-block-b">
+                        <span style="float: right">
+                            <div class="containing-element" style="width: 200px">
+                                <select id="configure_driver_rpigpio_debug" data-role="slider">
+                                    <option value="0">Disable</option>
+                                    <option value="1">Enable</option>
+                                </select>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </li>
+            <li id="configure_driver_rpigpiooptions">
+                <ul data-role="listview" data-inset="true">
+                    <li data-role="list-divider">GPIO pins</li>
+                    <!-- Pin_P1_03 -->
+                    <li id="gpio_pin_group1">
+                        <label for="configure_driver_rpigpio_Pin_P1_03_enable">
+                            Pin_P1_03</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_03_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_03_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_03_direction"
+                                               id="configure_gpio_Pin_P1_03_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_03_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_03_direction"
+                                               id="configure_gpio_Pin_P1_03_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_03_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_03_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_03_resistor"
+                                                   id="configure_gpio_Pin_P1_03_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_03_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_03_resistor"
+                                                   id="configure_gpio_Pin_P1_03_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_03_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_03_resistor"
+                                                   id="configure_gpio_Pin_P1_03_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_03_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Pin_P1_05 -->
+                    <li id="gpio_pin_group1">
+                        <label for="configure_driver_rpigpio_Pin_P1_05_enable">
+                            Pin_P1_05</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_05_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_05_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_05_direction"
+                                               id="configure_gpio_Pin_P1_05_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_05_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_05_direction"
+                                               id="configure_gpio_Pin_P1_05_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_05_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_05_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_05_resistor"
+                                                   id="configure_gpio_Pin_P1_05_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_05_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_05_resistor"
+                                                   id="configure_gpio_Pin_P1_05_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_05_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_05_resistor"
+                                                   id="configure_gpio_Pin_P1_05_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_05_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Pin_P1_07 -->
+                    <li id="Li1">
+                        <label for="configure_driver_rpigpio_Pin_P1_07_enable">
+                            Pin_P1_07</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_07_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_07_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_07_direction"
+                                               id="configure_gpio_Pin_P1_07_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_07_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_07_direction"
+                                               id="configure_gpio_Pin_P1_07_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_07_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_07_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_07_resistor"
+                                                   id="configure_gpio_Pin_P1_07_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_07_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_07_resistor"
+                                                   id="configure_gpio_Pin_P1_07_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_07_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_07_resistor"
+                                                   id="configure_gpio_Pin_P1_07_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_07_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P1_08 -->
+                    <li id="Li2">
+                        <label for="configure_driver_rpigpio_Pin_P1_08_enable">
+                            Pin_P1_08</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_08_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_08_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_08_direction"
+                                               id="configure_gpio_Pin_P1_08_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_08_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_08_direction"
+                                               id="configure_gpio_Pin_P1_08_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_08_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_08_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_08_resistor"
+                                                   id="configure_gpio_Pin_P1_08_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_08_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_08_resistor"
+                                                   id="configure_gpio_Pin_P1_08_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_08_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_08_resistor"
+                                                   id="configure_gpio_Pin_P1_08_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_08_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P1_10 -->
+                    <li id="Li3">
+                        <label for="configure_driver_rpigpio_Pin_P1_10_enable">
+                            Pin_P1_10</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_10_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_10_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_10_direction"
+                                               id="configure_gpio_Pin_P1_10_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_10_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_10_direction"
+                                               id="configure_gpio_Pin_P1_10_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_10_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_10_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_10_resistor"
+                                                   id="configure_gpio_Pin_P1_10_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_10_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_10_resistor"
+                                                   id="configure_gpio_Pin_P1_10_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_10_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_10_resistor"
+                                                   id="configure_gpio_Pin_P1_10_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_10_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P1_11 -->
+                    <li id="Li4">
+                        <label for="configure_driver_rpigpio_Pin_P1_11_enable">
+                            Pin_P1_11</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_11_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_11_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_11_direction"
+                                               id="configure_gpio_Pin_P1_11_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_11_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_11_direction"
+                                               id="configure_gpio_Pin_P1_11_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_11_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_11_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_11_resistor"
+                                                   id="configure_gpio_Pin_P1_11_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_11_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_11_resistor"
+                                                   id="configure_gpio_Pin_P1_11_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_11_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_11_resistor"
+                                                   id="configure_gpio_Pin_P1_11_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_11_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P1_12 -->
+                    <li id="Li5">
+                        <label for="configure_driver_rpigpio_Pin_P1_12_enable">
+                            Pin_P1_12</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_12_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_12_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_12_direction"
+                                               id="configure_gpio_Pin_P1_12_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_12_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_12_direction"
+                                               id="configure_gpio_Pin_P1_12_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_12_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_12_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_12_resistor"
+                                                   id="configure_gpio_Pin_P1_12_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_12_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_12_resistor"
+                                                   id="configure_gpio_Pin_P1_12_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_12_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_12_resistor"
+                                                   id="configure_gpio_Pin_P1_12_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_12_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P1_13 -->
+                    <li id="Li6">
+                        <label for="configure_driver_rpigpio_Pin_P1_13_enable">
+                            Pin_P1_13</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_13_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_13_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_13_direction"
+                                               id="configure_gpio_Pin_P1_13_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_13_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_13_direction"
+                                               id="configure_gpio_Pin_P1_13_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_13_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_13_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_13_resistor"
+                                                   id="configure_gpio_Pin_P1_13_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_13_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_13_resistor"
+                                                   id="configure_gpio_Pin_P1_13_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_13_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_13_resistor"
+                                                   id="configure_gpio_Pin_P1_13_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_13_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P1_15 -->
+                    <li id="Li7">
+                        <label for="configure_driver_rpigpio_Pin_P1_15_enable">
+                            Pin_P1_15</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_15_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_15_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_15_direction"
+                                               id="configure_gpio_Pin_P1_15_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_15_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_15_direction"
+                                               id="configure_gpio_Pin_P1_15_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_15_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_15_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_15_resistor"
+                                                   id="configure_gpio_Pin_P1_15_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_15_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_15_resistor"
+                                                   id="configure_gpio_Pin_P1_15_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_15_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_15_resistor"
+                                                   id="configure_gpio_Pin_P1_15_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_15_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P1_16 -->
+                    <li id="Li8">
+                        <label for="configure_driver_rpigpio_Pin_P1_16_enable">
+                            Pin_P1_16</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_16_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_16_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_16_direction"
+                                               id="configure_gpio_Pin_P1_16_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_16_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_16_direction"
+                                               id="configure_gpio_Pin_P1_16_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_16_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_16_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_16_resistor"
+                                                   id="configure_gpio_Pin_P1_16_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_16_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_16_resistor"
+                                                   id="configure_gpio_Pin_P1_16_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_16_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_16_resistor"
+                                                   id="configure_gpio_Pin_P1_16_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_16_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P1_18 -->
+                    <li id="Li9">
+                        <label for="configure_driver_rpigpio_Pin_P1_18_enable">
+                            Pin_P1_18</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_18_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_18_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_18_direction"
+                                               id="configure_gpio_Pin_P1_18_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_18_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_18_direction"
+                                               id="configure_gpio_Pin_P1_18_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_18_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_18_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_18_resistor"
+                                                   id="configure_gpio_Pin_P1_18_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_18_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_18_resistor"
+                                                   id="configure_gpio_Pin_P1_18_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_18_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_18_resistor"
+                                                   id="configure_gpio_Pin_P1_18_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_18_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P1_19 -->
+                    <li id="Li10">
+                        <label for="configure_driver_rpigpio_Pin_P1_19_enable">
+                            Pin_P1_19</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_19_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_19_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_19_direction"
+                                               id="configure_gpio_Pin_P1_19_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_19_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_19_direction"
+                                               id="configure_gpio_Pin_P1_19_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_19_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_19_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_19_resistor"
+                                                   id="configure_gpio_Pin_P1_19_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_19_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_19_resistor"
+                                                   id="configure_gpio_Pin_P1_19_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_19_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_19_resistor"
+                                                   id="configure_gpio_Pin_P1_19_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_19_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P1_21 -->
+                    <li id="Li11">
+                        <label for="configure_driver_rpigpio_Pin_P1_21_enable">
+                            Pin_P1_21</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_21_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_21_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_21_direction"
+                                               id="configure_gpio_Pin_P1_21_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_21_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_21_direction"
+                                               id="configure_gpio_Pin_P1_21_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_21_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_21_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_21_resistor"
+                                                   id="configure_gpio_Pin_P1_21_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_21_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_21_resistor"
+                                                   id="configure_gpio_Pin_P1_21_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_21_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_21_resistor"
+                                                   id="configure_gpio_Pin_P1_21_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_21_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P1_22 -->
+                    <li id="Li12">
+                        <label for="configure_driver_rpigpio_Pin_P1_22_enable">
+                            Pin_P1_22</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_22_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_22_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_22_direction"
+                                               id="configure_gpio_Pin_P1_22_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_22_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_22_direction"
+                                               id="configure_gpio_Pin_P1_22_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_22_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_22_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_22_resistor"
+                                                   id="configure_gpio_Pin_P1_22_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_22_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_22_resistor"
+                                                   id="configure_gpio_Pin_P1_22_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_22_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_22_resistor"
+                                                   id="configure_gpio_Pin_P1_22_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_22_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P1_23 -->
+                    <li id="Li13">
+                        <label for="configure_driver_rpigpio_Pin_P1_23_enable">
+                            Pin_P1_23</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_23_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_23_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_23_direction"
+                                               id="configure_gpio_Pin_P1_23_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_23_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_23_direction"
+                                               id="configure_gpio_Pin_P1_23_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_23_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_23_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_23_resistor"
+                                                   id="configure_gpio_Pin_P1_23_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_23_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_23_resistor"
+                                                   id="configure_gpio_Pin_P1_23_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_23_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_23_resistor"
+                                                   id="configure_gpio_Pin_P1_23_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_23_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P1_24 -->
+                    <li id="Li14">
+                        <label for="configure_driver_rpigpio_Pin_P1_24_enable">
+                            Pin_P1_24</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_24_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_24_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_24_direction"
+                                               id="configure_gpio_Pin_P1_24_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_24_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_24_direction"
+                                               id="configure_gpio_Pin_P1_24_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_24_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_24_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_24_resistor"
+                                                   id="configure_gpio_Pin_P1_24_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_24_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_24_resistor"
+                                                   id="configure_gpio_Pin_P1_24_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_24_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_24_resistor"
+                                                   id="configure_gpio_Pin_P1_24_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_24_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P1_26 -->
+                    <li id="Li15">
+                        <label for="configure_driver_rpigpio_Pin_P1_26_enable">
+                            Pin_P1_26</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_26_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_26_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_26_direction"
+                                               id="configure_gpio_Pin_P1_26_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_26_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_26_direction"
+                                               id="configure_gpio_Pin_P1_26_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_26_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_26_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_26_resistor"
+                                                   id="configure_gpio_Pin_P1_26_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_26_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_26_resistor"
+                                                   id="configure_gpio_Pin_P1_26_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_26_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_26_resistor"
+                                                   id="configure_gpio_Pin_P1_26_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_26_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P5_03 -->
+                    <li id="gpio_pin_group2">
+                        <label for="configure_driver_rpigpio_Pin_P5_03_enable">
+                            Pin_P5_03</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P5_03_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P5_03_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P5_03_direction"
+                                               id="configure_gpio_Pin_P5_03_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P5_03_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P5_03_direction"
+                                               id="configure_gpio_Pin_P5_03_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P5_03_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P5_03_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P5_03_resistor"
+                                                   id="configure_gpio_Pin_P5_03_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P5_03_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P5_03_resistor"
+                                                   id="configure_gpio_Pin_P5_03_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P5_03_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P5_03_resistor"
+                                                   id="configure_gpio_Pin_P5_03_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P5_03_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P5_04 -->
+                    <li id="gpio_pin_group2">
+                        <label for="configure_driver_rpigpio_Pin_P5_04_enable">
+                            Pin_P5_04</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P5_04_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P5_04_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P5_04_direction"
+                                               id="configure_gpio_Pin_P5_04_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P5_04_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P5_04_direction"
+                                               id="configure_gpio_Pin_P5_04_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P5_04_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P5_04_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P5_04_resistor"
+                                                   id="configure_gpio_Pin_P5_04_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P5_04_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P5_04_resistor"
+                                                   id="configure_gpio_Pin_P5_04_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P5_04_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P5_04_resistor"
+                                                   id="configure_gpio_Pin_P5_04_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P5_04_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P5_05 -->
+                    <li id="gpio_pin_group2">
+                        <label for="configure_driver_rpigpio_Pin_P5_05_enable">
+                            Pin_P5_05</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P5_05_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P5_05_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P5_05_direction"
+                                               id="configure_gpio_Pin_P5_05_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P5_05_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P5_05_direction"
+                                               id="configure_gpio_Pin_P5_05_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P5_05_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P5_05_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P5_05_resistor"
+                                                   id="configure_gpio_Pin_P5_05_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P5_05_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P5_05_resistor"
+                                                   id="configure_gpio_Pin_P5_05_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P5_05_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P5_05_resistor"
+                                                   id="configure_gpio_Pin_P5_05_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P5_05_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!-- Pin_P5_06 -->
+                    <li id="gpio_pin_group2">
+                        <label for="configure_driver_rpigpio_Pin_P5_06_enable">
+                            Pin_P5_06</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P5_06_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P5_06_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P5_06_direction"
+                                               id="configure_gpio_Pin_P5_06_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P5_06_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P5_06_direction"
+                                               id="configure_gpio_Pin_P5_06_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P5_06_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P5_06_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P5_06_resistor"
+                                                   id="configure_gpio_Pin_P5_06_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P5_06_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P5_06_resistor"
+                                                   id="configure_gpio_Pin_P5_06_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P5_06_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P5_06_resistor"
+                                                   id="configure_gpio_Pin_P5_06_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P5_06_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P1_29 -->
+                    <li id="gpio_pin_group3">
+                        <label for="configure_driver_rpigpio_Pin_P1_29_enable">
+                            Pin_P1_29</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_29_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_29_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_29_direction"
+                                               id="configure_gpio_Pin_P1_29_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_29_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_29_direction"
+                                               id="configure_gpio_Pin_P1_29_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_29_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_29_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_29_resistor"
+                                                   id="configure_gpio_Pin_P1_29_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_29_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_29_resistor"
+                                                   id="configure_gpio_Pin_P1_29_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_29_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_29_resistor"
+                                                   id="configure_gpio_Pin_P1_29_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_29_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P1_31 -->
+                    <li id="gpio_pin_group3">
+                        <label for="configure_driver_rpigpio_Pin_P1_31_enable">
+                            Pin_P1_31</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_31_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_31_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_31_direction"
+                                               id="configure_gpio_Pin_P1_31_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_31_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_31_direction"
+                                               id="configure_gpio_Pin_P1_31_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_31_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_31_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_31_resistor"
+                                                   id="configure_gpio_Pin_P1_31_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_31_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_31_resistor"
+                                                   id="configure_gpio_Pin_P1_31_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_31_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_31_resistor"
+                                                   id="configure_gpio_Pin_P1_31_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_31_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P1_32 -->
+                    <li id="gpio_pin_group3">
+                        <label for="configure_driver_rpigpio_Pin_P1_32_enable">
+                            Pin_P1_32</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_32_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_32_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_32_direction"
+                                               id="configure_gpio_Pin_P1_32_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_32_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_32_direction"
+                                               id="configure_gpio_Pin_P1_32_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_32_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_32_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_32_resistor"
+                                                   id="configure_gpio_Pin_P1_32_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_32_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_32_resistor"
+                                                   id="configure_gpio_Pin_P1_32_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_32_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_32_resistor"
+                                                   id="configure_gpio_Pin_P1_32_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_32_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P1_33 -->
+                    <li id="gpio_pin_group3">
+                        <label for="configure_driver_rpigpio_Pin_P1_33_enable">
+                            Pin_P1_33</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_33_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_33_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_33_direction"
+                                               id="configure_gpio_Pin_P1_33_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_33_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_33_direction"
+                                               id="configure_gpio_Pin_P1_33_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_33_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_33_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_33_resistor"
+                                                   id="configure_gpio_Pin_P1_33_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_33_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_33_resistor"
+                                                   id="configure_gpio_Pin_P1_33_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_33_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_33_resistor"
+                                                   id="configure_gpio_Pin_P1_33_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_33_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P1_35 -->
+                    <li id="gpio_pin_group3">
+                        <label for="configure_driver_rpigpio_Pin_P1_35_enable">
+                            Pin_P1_35</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_35_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_35_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_35_direction"
+                                               id="configure_gpio_Pin_P1_35_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_35_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_35_direction"
+                                               id="configure_gpio_Pin_P1_35_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_35_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_35_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_35_resistor"
+                                                   id="configure_gpio_Pin_P1_35_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_35_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_35_resistor"
+                                                   id="configure_gpio_Pin_P1_35_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_35_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_35_resistor"
+                                                   id="configure_gpio_Pin_P1_35_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_35_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P1_36 -->
+                    <li id="gpio_pin_group3">
+                        <label for="configure_driver_rpigpio_Pin_P1_36_enable">
+                            Pin_P1_36</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_36_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_36_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_36_direction"
+                                               id="configure_gpio_Pin_P1_36_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_36_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_36_direction"
+                                               id="configure_gpio_Pin_P1_36_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_36_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_36_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_36_resistor"
+                                                   id="configure_gpio_Pin_P1_36_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_36_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_36_resistor"
+                                                   id="configure_gpio_Pin_P1_36_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_36_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_36_resistor"
+                                                   id="configure_gpio_Pin_P1_36_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_36_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P1_37 -->
+                    <li id="gpio_pin_group3">
+                        <label for="configure_driver_rpigpio_Pin_P1_37_enable">
+                            Pin_P1_37</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_37_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_37_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_37_direction"
+                                               id="configure_gpio_Pin_P1_37_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_37_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_37_direction"
+                                               id="configure_gpio_Pin_P1_37_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_37_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_37_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_37_resistor"
+                                                   id="configure_gpio_Pin_P1_37_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_37_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_37_resistor"
+                                                   id="configure_gpio_Pin_P1_37_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_37_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_37_resistor"
+                                                   id="configure_gpio_Pin_P1_37_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_37_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                    <!-- Pin_P1_40 -->
+                    <li id="gpio_pin_group3">
+                        <label for="configure_driver_rpigpio_Pin_P1_40_enable">
+                            Pin_P1_40</label>
+                        <div class="ui-grid-a">
+                            <div class="ui-block-a">
+                            </div>
+                            <div class="ui-block-b">
+                                <span style="float: right">
+                                    <div class="containing-element" style="width: 200px">
+                                        <select id="configure_driver_rpigpio_Pin_P1_40_enable" data-role="slider">
+                                            <option value="0">Disable</option>
+                                            <option value="1">Enable</option>
+                                        </select>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="configure_gpio_Pin_P1_40_enabled_group" style="display: none;">
+                            <FORM>
+                                <fieldset data-role="controlgroup" data-type="horizontal">
+                                    <legend>Direction</legend>
+                                    <div class="containing-element" style="width: 300px">
+                                        <input name="configure_gpio_Pin_P1_40_direction"
+                                               id="configure_gpio_Pin_P1_40_direction_input" value="0" checked="checked"
+                                               type="radio">
+                                        <label for="configure_gpio_Pin_P1_40_direction_input">
+                                            Input</label>
+                                        <input name="configure_gpio_Pin_P1_40_direction"
+                                               id="configure_gpio_Pin_P1_40_direction_output" value="1" type="radio">
+                                        <label for="configure_gpio_Pin_P1_40_direction_output">
+                                            Output</label>
+                                    </div>
+                                </fieldset>
+                            </form>
+                            <div id="configure_gpio_Pin_P1_40_resistor_group" style="display: none;">
+                                <form>
+                                    <fieldset data-role="controlgroup" data-type="horizontal">
+                                        <legend>Resistor:</legend>
+                                        <div class="containing-element" style="width: 300px">
+                                            <input name="configure_gpio_Pin_P1_40_resistor"
+                                                   id="configure_gpio_Pin_P1_40_resistor_off" value="0"
+                                                   checked="checked" type="radio">
+                                            <label for="configure_gpio_Pin_P1_40_resistor_off">
+                                                Off</label>
+                                            <input name="configure_gpio_Pin_P1_40_resistor"
+                                                   id="configure_gpio_Pin_P1_40_resistor_pull_up" value="2"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_40_resistor_pull_up">
+                                                Pull up</label>
+                                            <input name="configure_gpio_Pin_P1_40_resistor"
+                                                   id="configure_gpio_Pin_P1_40_resistor_pull_down" value="1"
+                                                   type="radio">
+                                            <label for="configure_gpio_Pin_P1_40_resistor_pull_down">
+                                                Pull down</label>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <!-- navbar -->
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#page_config_drivers" data-role="button" data-icon="back" data-iconpos="left"
+                       data-mini="true" data-direction="reverse" data-transition="slide">Back</a></li>
+            </ul>
+        </div>
+        <!-- /navbar -->
+    </div>
+</div>
