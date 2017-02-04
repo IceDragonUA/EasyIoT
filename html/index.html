@@ -4,12 +4,16 @@
     <title>SmartSoft</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" type="text/css" href="/css/codemirror-4.5/codemirror.css">
     <link rel="stylesheet" href="/css/jquery-ui/jquery-ui.min.css"/>
     <link rel="stylesheet" href="/css/themes/default/jquery.mobile-1.4.3.min.css"/>
     <link rel="stylesheet" type="text/css" href="/css/easyiot.css">
+
     <!--[if lte IE 8]>
-    <script language="javascript" type="text/javascript" src="/js/flot/excanvas.min.js"></script><![endif]-->
+        <script language="javascript" type="text/javascript" src="/js/flot/excanvas.min.js"></script>
+    <![endif]-->
+
     <script src="/js/jquery.min.js" type="text/javascript"></script>
     <script src="/js/jquery-ui.min.js" type="text/javascript"></script>
     <script src="/js/jquery.mobile-1.4.3.min.js" type="text/javascript"></script>
@@ -37,19 +41,18 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
+
 <!-- control -->
 {include pages/control/control.html}
 {include pages/control/chart.html}
-<!-- Config -->
+
+<!-- config -->
 {include pages/config/config.html}
 {include pages/config/groupmodules/groups.html}
 {include pages/config/groupmodules/groupmodules.html}
 {include pages/config/drivers/drivers.html}
-{include pages/config/drivers/mysensors.html}
 {include pages/config/drivers/rpigpio.html}
-{include pages/config/drivers/esp8266.html}
 {include pages/config/drivers/virtual.html}
-{include pages/config/drivers/mqtt.html}
 {include pages/config/automation/automationgroups.html}
 {include pages/config/automation/automationlist.html}
 {include pages/config/automation/automationprogramparam.html}

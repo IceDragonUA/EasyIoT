@@ -99,23 +99,35 @@ Ha.WebApp.Utility.FormatDateTime = function (d, a) {
     a && (b += "." + d.getMilliseconds());
     return b
 };
+/**
+ * @return {string}
+ */
 Ha.WebApp.Utility.GetBasicIconForModule = function (d) {
     return "S_GENERIC" == d.DeviceType ? "images/widgets/sensor.png" : "S_DIGITAL_INPUT" == d.DeviceType ? "images/widgets/digital_input.png" : "S_DIGITAL_OUTPUT" == d.DeviceType ? "images/widgets/socket_off.png" : "S_DOOR" == d.DeviceType ? "images/widgets/door_closed.png" : "S_ANALOG_INPUT" == d.DeviceType ? "images/widgets/ai.png" : "S_TEMP" == d.DeviceType ? "images/widgets/temperature.png" : "S_HUM" == d.DeviceType ? "images/widgets/humidity.png" : "S_BARO" == d.DeviceType ? "images/widgets/pressure.png" :
                                     "S_LIGHT_LEVEL" == d.DeviceType ? "images/widgets/radiation.png" : "S_ANALOG_OUTPUT" == d.DeviceType ? "images/widgets/ao.png" : "S_LEAK" == d.DeviceType ? "images/widgets/leak_ok.png" : "S_TEMP_AO" == d.DeviceType ? "images/widgets/temperature.png" : "S_HUM_AO" == d.DeviceType ? "images/widgets/humidity.png" : "S_DIMMER" == d.DeviceType ? "images/widgets/dimmer.png" : "S_COVER" == d.DeviceType ? "images/widgets/cover.png" : "S_DISTANCE" == d.DeviceType ? "images/widgets/distance.png" : "S_DUST" == d.DeviceType ? "images/widgets/dust.png" : "S_POWER" ==
                                                                         d.DeviceType ? "images/widgets/power.png" : "S_WATER" == d.DeviceType ? "images/widgets/water.png" : "S_UV" == d.DeviceType ? "images/widgets/uvindex.png" : "S_MOTION" == d.DeviceType ? "images/widgets/motion.png" : "images/widgets/sensor.png"
 };
+/**
+ * @return {string}
+ */
 Ha.WebApp.Utility.GetBasicIcon1ForModule = function (d) {
     var a = "";
     "S_DIGITAL_OUTPUT" == d.DeviceType ? a = "images/widgets/socket_on.png" : "S_DOOR" == d.DeviceType ? a = "images/widgets/door_open.png" : "S_LEAK" == d.DeviceType ? a = "images/widgets/leak_alarm.png" : "S_MOTION" == d.DeviceType && (a = "images/widgets/motion_alarm.png");
     "" == a && (a = Ha.WebApp.Utility.GetBasicIconForModule(d));
     return a
 };
+/**
+ * @return {string}
+ */
 Ha.WebApp.Utility.GetIconForModule = function (d) {
     var a = "", b = Ha.WebApp.Utility.GetModulePropertyByName(d, "Settings.Icon");
     null != b && "" != b && "undefined" != b && (a = "/images/custom/" + b.Value);
     "" == a && (a = Ha.WebApp.Utility.GetBasicIconForModule(d));
     return a
 };
+/**
+ * @return {string}
+ */
 Ha.WebApp.Utility.GetIcon1ForModule = function (d) {
     var a = "", b = Ha.WebApp.Utility.GetModulePropertyByName(d, "Settings.Icon1");
     null != b && "" != b && "undefined" != b && (a = "/images/custom/" + b.Value);
@@ -124,6 +136,9 @@ Ha.WebApp.Utility.GetIcon1ForModule = function (d) {
 };
 Ha.WebApp.Control = Ha.WebApp.Control || {};
 Ha.WebApp.Control.Dataset = [];
+/**
+ * @return {string}
+ */
 Ha.WebApp.Control.GetWidgetBatteryData = function (d) {
     var a = "";
     d = Ha.WebApp.Utility.GetModulePropertyByName(d, "Status.Battery");
@@ -406,7 +421,7 @@ Ha.WebApp.Control.ChartLoadData = function () {
         } else for (h = 0; h < Ha.WebApp.Control.Dataset.length; h++)l = Ha.WebApp.Control.Dataset[h], l.domain == b.Domain && l.address == b.Address && l.property == f.Name && (Ha.WebApp.Control.Dataset.splice(h, 1), Ha.WebApp.Control.ChartSetYAxis(), Ha.WebApp.Control.ChartDisplayData(Ha.WebApp.Control.Dataset))
     }
 };
-Ha.WebApp.Control.ChartHorizontChanged = function () {
+Ha.WebApp.Control.ChartHorizonChanged = function () {
     Ha.WebApp.Control.Dataset = [];
     Ha.WebApp.Control.ChartDisplayData(Ha.WebApp.Control.Dataset);
     Ha.WebApp.Control.ChartLoadData()
@@ -448,173 +463,23 @@ Ha.WebApp.Control.InitChart = function () {
 Ha.WebApp.Configure = Ha.WebApp.Configure || {};
 Ha.WebApp.Configure.SelectedModule = null;
 Ha.WebApp.Configure.SelectedModuleProperty = null;
-Ha.WebApp.Configure.MQTTNodeTmp = null;
-Ha.WebApp.Configure.InitMySensorsDriver = function () {
-    $("[id=configure_driver_mysensorsoptions]").each(function () {
-        $(this).hide()
-    });
-    $("#configure_driver_mysensors_enabled").unbind("slidestop");
-    Ha.Data.ServiceCall("Config/Driver/MySensors/GetIsEnabled/", null, "GET", function (d) {
-        $("#configure_driver_mysensors_enabled").val(d).slider("refresh");
-        "0" != $("#configure_driver_mysensors_enabled").val() ? $("[id=configure_driver_mysensorsoptions]").each(function () {
-                $(this).show()
-            }) : $("[id=configure_driver_mysensorsoptions]").each(function () {
-                $(this).hide()
-            })
-    });
-    $("#configure_driver_mysensors_enabled").on("slidestop", function (d) {
-        Ha.Data.ServiceCall("Config/Driver/MySensors/SetIsEnabled/" + $("#configure_driver_mysensors_enabled").val() + "/", null, "POST", function (a) {
-            $("#configure_driver_mysensors_enabled").val(a).slider("refresh");
-            "0" != $("#configure_driver_mysensors_enabled").val() ? $("[id=configure_driver_mysensorsoptions]").each(function () {
-                    $(this).show()
-                }) : $("[id=configure_driver_mysensorsoptions]").each(function () {
-                    $(this).hide()
-                })
-        })
-    });
-    $("#configure_driver_mysensorschannel").unbind("slidestop");
-    Ha.Data.ServiceCall("Config/Driver/MySensors/GetChannel/", null, "GET", function (d) {
-        $("#configure_driver_mysensorschannel").val(d).slider("refresh")
-    });
-    $("#configure_driver_mysensorschannel").on("slidestop", function (d, a) {
-        Ha.Data.ServiceCall("Config/Driver/MySensors/SetChannel/" + $("#configure_driver_mysensorschannel").val() + "/", null, "GET", function (a) {
-            $("#configure_driver_mysensorschannel").val(a).slider("refresh")
-        })
-    });
-    $("#configure_driver_mysensorsbaseradioid").unbind("change");
-    Ha.Data.ServiceCall("Config/Driver/MySensors/GetBaseRadioId/",
-        null, "GET", function (d) {
-            $("#configure_driver_mysensorsbaseradioid").val(d)
-        });
-    $("#configure_driver_mysensorsbaseradioid").on("change", function (d) {
-        Ha.Data.ServiceCall("Config/Driver/MySensors/SetBaseRadioId/" + $("#configure_driver_mysensorsbaseradioid").val(), null, "POST", function (a) {
-            $("#configure_driver_mysensorsbaseradioid").val(a)
-        })
-    });
-    $("#configure_driver_mysensorsdatarate").unbind("change");
-    Ha.Data.ServiceCall("Config/Driver/MySensors/GetDataRate/", null, "GET", function (d) {
-        $("#configure_driver_mysensorsdatarate").val(d);
-        $("#configure_driver_mysensorsdatarate").selectmenu("refresh")
-    });
-    $("#configure_driver_mysensorsdatarate").on("change", function (d) {
-        Ha.Data.ServiceCall("Config/Driver/MySensors/SetDataRate/" + $("#configure_driver_mysensorsdatarate").val(), null, "POST", function (a) {
-            $("#configure_driver_mysensorsdatarate").val(a);
-            $("#configure_driver_mysensorsdatarate").selectmenu("refresh")
-        })
-    });
-    $("#configure_driver_mysensorspalevel").unbind("change");
-    Ha.Data.ServiceCall("Config/Driver/MySensors/GetPowerAmplifierLevel/",
-        null, "GET", function (d) {
-            $("#configure_driver_mysensorspalevel").val(d);
-            $("#configure_driver_mysensorspalevel").selectmenu("refresh")
-        });
-    $("#configure_driver_mysensorspalevel").on("change", function (d) {
-        Ha.Data.ServiceCall("Config/Driver/MySensors/SetPowerAmplifierLevel/" + $("#configure_driver_mysensorspalevel").val(), null, "POST", function (a) {
-            $("#configure_driver_mysensorspalevel").val(a);
-            $("#configure_driver_mysensorspalevel").selectmenu("refresh")
-        })
-    });
-    $("#configure_driver_mysensors_debug").unbind("slidestop");
-    Ha.Data.ServiceCall("Config/Driver/MySensors/GetDebugMode/", null, "GET", function (d) {
-        $("#configure_driver_mysensors_debug").val(d).slider("refresh")
-    });
-    $("#configure_driver_mysensors_debug").on("slidestop", function (d) {
-        Ha.Data.ServiceCall("Config/Driver/MySensors/SetDebugMode/" + $("#configure_driver_mysensors_debug").val() + "/", null, "POST", function (a) {
-            $("#configure_driver_mysensors_debug").val(a).slider("refresh")
-        })
-    });
-    $("#configure_driver_mysensorsremovenode_popup").unbind("popupbeforeposition");
-    $("#configure_driver_mysensorsremovenode_popup").on("popupbeforeposition",
-        function (d) {
-            Ha.WebApp.Configure.DriverModuleListViewItems("MySensors", function (a) {
-                $("#configure_driver_mysensorsremovenode").empty();
-                $("#configure_driver_mysensorsremovenode").append(a);
-                $("#configure_driver_mysensorsremovenode").selectmenu("refresh")
-            })
-        });
-    $("#configure_driver_mysensorsremovenode_button").unbind("click");
-    $("#configure_driver_mysensorsremovenode_button").on("click", function (d) {
-        var a = $("#configure_driver_mysensorsremovenode").find(":selected");
-        d = a.attr("data-context-domain");
-        a = a.attr("data-context-value");
-        null != d && Ha.WebApp.Configure.RemoveModule(d, a)
-    })
-};
-Ha.WebApp.Configure.InitEsp8266EasyIoTDriver = function () {
-    $("[id=configure_driver_esp8266easyiotoptions]").each(function () {
-        $(this).hide()
-    });
-    $("#configure_driver_esp8266easyiot_enabled").unbind("slidestop");
-    Ha.Data.ServiceCall("Config/Driver/Esp8266/GetIsEnabled/", null, "GET", function (d) {
-        $("#configure_driver_esp8266easyiot_enabled").val(d).slider("refresh");
-        "0" != $("#configure_driver_esp8266easyiot_enabled").val() ? $("[id=configure_driver_esp8266easyiotoptions]").each(function () {
-                $(this).show()
-            }) : $("[id=configure_driver_esp8266easyiotoptions]").each(function () {
-                $(this).hide()
-            })
-    });
-    $("#configure_driver_esp8266easyiot_enabled").on("slidestop", function (d) {
-        Ha.Data.ServiceCall("Config/Driver/Esp8266/SetIsEnabled/" + $("#configure_driver_esp8266easyiot_enabled").val() + "/", null, "POST", function (a) {
-            $("#configure_driver_esp8266easyiot_enabled").val(a).slider("refresh");
-            "0" != $("#configure_driver_esp8266easyiot_enabled").val() ? $("[id=configure_driver_esp8266easyiotoptions]").each(function () {
-                    $(this).show()
-                }) : $("[id=configure_driver_esp8266easyiotoptions]").each(function () {
-                    $(this).hide()
-                })
-        })
-    });
-    $("#configure_driver_esp8266easyiot_debug").unbind("slidestop");
-    Ha.Data.ServiceCall("Config/Driver/Esp8266/GetDebugMode/", null, "GET", function (d) {
-        $("#configure_driver_esp8266easyiot_debug").val(d).slider("refresh")
-    });
-    $("#configure_driver_esp8266easyiot_debug").on("slidestop", function (d) {
-        Ha.Data.ServiceCall("Config/Driver/Esp8266/SetDebugMode/" + $("#configure_driver_esp8266easyiot_debug").val() + "/", null, "POST", function (a) {
-            $("#configure_driver_esp8266easyiot_debug").val(a).slider("refresh")
-        })
-    });
-    $("#configure_driver_esp8266easyiot_port").unbind("change");
-    Ha.Data.ServiceCall("Config/Driver/Esp8266/GetPort", null, "GET", function (d) {
-        $("#configure_driver_esp8266easyiot_port").val(d)
-    });
-    $("#configure_driver_esp8266easyiot_port").on("change", function (d) {
-        Ha.Data.ServiceCall("Config/Driver/Esp8266/SetPort/" + $("#configure_driver_esp8266easyiot_port").val(), null, "POST", function (a) {
-            $("#configure_driver_esp8266easyiot_port").val(a)
-        })
-    });
-    $("#configure_driver_esp8266easyiotremovenode_popup").unbind("popupbeforeposition");
-    $("#configure_driver_esp8266easyiotremovenode_popup").on("popupbeforeposition",
-        function (d) {
-            Ha.WebApp.Configure.DriverModuleListViewItems("Esp8266", function (a) {
-                $("#configure_driver_esp8266easyiotremovenode").empty();
-                $("#configure_driver_esp8266easyiotremovenode").append(a);
-                $("#configure_driver_esp8266easyiotremovenode").selectmenu("refresh")
-            })
-        });
-    $("#configure_driver_esp8266easyiotremovenode_button").unbind("click");
-    $("#configure_driver_esp8266easyiotremovenode_button").on("click", function (d) {
-        var a = $("#configure_driver_esp8266easyiotremovenode").find(":selected");
-        d = a.attr("data-context-domain");
-        a = a.attr("data-context-value");
-        null != d && Ha.WebApp.Configure.RemoveModule(d, a)
-    })
-};
 Ha.WebApp.Configure.InitVirtualDriver = function () {
     $("[id=configure_driver_virtualoptions]").each(function () {
         $(this).hide()
     });
-    $("#configure_driver_virual_enabled").unbind("slidestop");
+    $("#configure_driver_virtual_enabled").unbind("slidestop");
     Ha.Data.ServiceCall("Config/Driver/Virtual/GetIsEnabled/", null, "GET", function (d) {
-        $("#configure_driver_virual_enabled").val(d).slider("refresh");
-        "0" != $("#configure_driver_virual_enabled").val() ? $("[id=configure_driver_virtualoptions]").each(function () {
+        $("#configure_driver_virtual_enabled").val(d).slider("refresh");
+        "0" != $("#configure_driver_virtual_enabled").val() ? $("[id=configure_driver_virtualoptions]").each(function () {
                 $(this).show()
             }) : $("[id=configure_driver_virtualoptions]").each(function () {
                 $(this).hide()
             })
     });
-    $("#configure_driver_virual_enabled").on("slidestop", function (d) {
-        Ha.Data.ServiceCall("Config/Driver/Virtual/SetIsEnabled/" + $("#configure_driver_virual_enabled").val() + "/", null, "POST", function (a) {
-            $("#configure_driver_virual_enabled").val(a).slider("refresh");
-            "0" != $("#configure_driver_virual_enabled").val() ? $("[id=configure_driver_virtualoptions]").each(function () {
+    $("#configure_driver_virtual_enabled").on("slidestop", function (d) {
+        Ha.Data.ServiceCall("Config/Driver/Virtual/SetIsEnabled/" + $("#configure_driver_virtual_enabled").val() + "/", null, "POST", function (a) {
+            $("#configure_driver_virtual_enabled").val(a).slider("refresh");
+            "0" != $("#configure_driver_virtual_enabled").val() ? $("[id=configure_driver_virtualoptions]").each(function () {
                     $(this).show()
                 }) : $("[id=configure_driver_virtualoptions]").each(function () {
                     $(this).hide()
@@ -877,21 +742,6 @@ Ha.WebApp.Configure.AddGroupModule = function (d, a, b) {
         })
     })
 };
-Ha.WebApp.Configure.MySensorsNodeAdd = function () {
-    $("#configure_driver_mysensorsaddnode_popup").popup("open");
-    $("#configure_driver_mysensors_nodeid").html("");
-    $("#configure_driver_mysensors_message").html("This operation will timeout in 30 seconds.");
-    $("#configure_driver_mysensors_close_button").addClass("ui-disabled");
-    Ha.Data.ServiceCall("Config/Driver/MySensors/AddNode/", null, "POST", function (d) {
-        0 != d ? ($("#configure_driver_mysensors_nodeid").html(d), $("#configure_driver_mysensors_message").html("node added.")) :
-            ($("#configure_driver_mysensors_nodeid").html('<span style="color:red">timed out</span>'), $("#configure_driver_mysensors_message").html("Operation falied."));
-        $("#configure_driver_mysensors_instructions").html("");
-        $("#configure_driver_mysensors_close_button").removeClass("ui-disabled")
-    })
-};
-Ha.WebApp.Configure.MySensorsNodeRemovePopup = function () {
-    $("#configure_driver_mysensorsremovenode_popup").popup("open")
-};
 Ha.WebApp.Configure.RemoveModule = function (d, a) {
     Ha.Data.ServiceCall("Config/Driver/" + d + "/RemoveModule/" + a + "/", null, "POST", function (a) {
     })
@@ -907,7 +757,7 @@ Ha.WebApp.Configure.DriverModuleListViewItems = function (d, a) {
         null != a && a(b)
     })
 };
-Ha.WebApp.Configure.InitWebinterface = function () {
+Ha.WebApp.Configure.InitWebInterface = function () {
     $("#configure_webinterface_http_port").unbind("change");
     Ha.Data.ServiceCall("Config/Webinterface/GetHttpPort", null, "GET", function (d) {
         $("#configure_webinterface_http_port").val(d)
@@ -944,14 +794,14 @@ Ha.WebApp.Configure.InitWebinterface = function () {
     });
     $("#user_remove_popup").unbind("popupbeforeposition");
     $("#user_remove_popup").on("popupbeforeposition", function (d) {
-        Ha.WebApp.Configure.WebinterfaceRemoveUserViewItems(function (a) {
+        Ha.WebApp.Configure.WebInterfaceRemoveUserViewItems(function (a) {
             $("#user_remove").empty();
             $("#user_remove").append(a);
             $("#user_remove").selectmenu("refresh")
         })
     })
 };
-Ha.WebApp.Configure.WebinterfaceRemoveUserViewItems = function (d) {
+Ha.WebApp.Configure.WebInterfaceRemoveUserViewItems = function (d) {
     var a = "";
     Ha.Data.ServiceCall("Config/Webinterface/UserList/", null, "GET", function (b) {
         users = b;
@@ -1131,7 +981,7 @@ Ha.WebApp.Configure.AutomationProgramUpdate = function () {
 };
 Ha.WebApp.Configure.InitGeneralSettings = function () {
 };
-Ha.WebApp.Configure.InitSmsinterface = function () {
+Ha.WebApp.Configure.InitSmsInterface = function () {
     $("#configure_smsinterface_enabled").unbind("slidestop");
     Ha.Data.ServiceCall("Config/Smsinterface/GetEnabled", null, "GET", function (d) {
         $("#configure_smsinterface_enabled").val(d).slider("refresh")
@@ -1177,7 +1027,7 @@ Ha.WebApp.Configure.InitSmsinterface = function () {
     });
     $("#sms_shotcut_remove_popup").unbind("popupbeforeposition");
     $("#sms_shotcut_remove_popup").on("popupbeforeposition", function (d) {
-        Ha.WebApp.Configure.SmsinterfaceRemoveShortcutViewItems(function (a) {
+        Ha.WebApp.Configure.SmsInterfaceRemoveShortcutViewItems(function (a) {
             $("#sms_shortcut_remove").empty();
             $("#sms_shortcut_remove").append(a);
             $("#sms_shortcut_remove").selectmenu("refresh")
@@ -1189,7 +1039,7 @@ Ha.WebApp.Configure.InitSmsinterface = function () {
         Ha.Data.ServiceCall("Config/Smsinterface/Remove/" + d, null, "POST", null)
     })
 };
-Ha.WebApp.Configure.SmsinterfaceRemoveShortcutViewItems = function (d) {
+Ha.WebApp.Configure.SmsInterfaceRemoveShortcutViewItems = function (d) {
     var a = "";
     Ha.Data.ServiceCall("Config/Smsinterface/List/", null, "GET", function (b) {
         users = b;
@@ -1318,21 +1168,6 @@ Ha.WebApp.Configure.InitRPiGPIODriver = function () {
         })
     })
 };
-Ha.WebApp.Configure.Esp8266EasyIoTNodeAdd = function () {
-    $("#configure_driver_esp8266easyiotaddnode_popup").popup("open");
-    $("#configure_driver_esp8266easyiot_nodeid").html("");
-    $("#configure_driver_esp8266easyiot_message").html("This operation will timeout in 30 seconds.");
-    $("#configure_driver_esp8266easyiot_close_button").addClass("ui-disabled");
-    Ha.Data.ServiceCall("Config/Driver/Esp8266/AddNode/", null, "POST", function (d) {
-        0 != d ? ($("#configure_driver_esp8266easyiot_nodeid").html(d), $("#configure_driver_esp8266easyiot_message").html("node added.")) :
-            ($("#configure_driver_esp8266easyiot_nodeid").html('<span style="color:red">timed out</span>'), $("#configure_driver_esp8266easyiot_message").html("Operation falied."));
-        $("#configure_driver_esp8266easyiot_instructions").html("");
-        $("#configure_driver_esp8266easyiot_close_button").removeClass("ui-disabled")
-    })
-};
-Ha.WebApp.Configure.Esp8266EasyIoTNodeRemovePopup = function () {
-    $("#configure_driver_esp8266easyiotremovenode_popup").popup("open")
-};
 Ha.WebApp.Configure.VirtualNodeAdd = function () {
     $("#configure_driver_virtual_addnode_popup").popup("open");
     $("#configure_driver_virtual_nodeid").html("");
@@ -1347,377 +1182,6 @@ Ha.WebApp.Configure.VirtualNodeAdd = function () {
 };
 Ha.WebApp.Configure.VirtualRemovePopup = function () {
     $("#configure_driver_virtual_removenode_popup").popup("open")
-};
-Ha.WebApp.Configure.MQTTClientConnectionListViewItems = function (d) {
-    var a = "";
-    Ha.Data.ServiceCall("Config/Driver/MQTTClient/ConnectionList", null, "GET", function (b) {
-        for (m = 0; m < b.length; m++) {
-            var e = b[m];
-            displayname = "#" + e.Id + " - " + e.Hostname + ":" + e.Port;
-            a += '<option data-context-connid="' + e.Id + '" value="' + e.Id + '" >' + displayname + "</option>"
-        }
-        null != d && d(a)
-    })
-};
-Ha.WebApp.Configure.MQTTClientNodeListViewItems = function (d) {
-    var a = "";
-    Ha.Data.ServiceCall("Config/Driver/MQTTClient/NodeList", null, "GET", function (b) {
-        for (m = 0; m < b.length; m++) {
-            var e = b[m];
-            a += '<option data-context-nodeid="' + e.Id + '" >' + e.Address + "</option>"
-        }
-        null != d && d(a)
-    })
-};
-Ha.WebApp.Configure.MQTTClientFillProperty = function (d) {
-    var a;
-    a = '<li><div class="ui-corner-all custom-corners"><div class="ui-bar ui-bar-a">';
-    a += "<h1>Property</h1>";
-    a += "</div>";
-    a += '<div class="ui-body ui-body-a">';
-    a += '<div class="ui-grid-a">';
-    a += '<div class="ui-block-a" style="padding-right:7.5px;padding-top:15px;width:30%;">Property</div>';
-    a += '<div class="ui-block-b" style="padding-left:7.5px;width:70%;"><input data-ui-field="configure_driver_mqqtt_propertylist_property" type="text" value="' + d.Property +
-        '" onchange="" style="font-size:11pt" -class="ui-disabled" /></div>';
-    a += "</div>";
-    a += "</div>";
-    a += "</div>";
-    a += '<div class="ui-corner-all custom-corners">';
-    a += '<div class="ui-bar ui-bar-a">';
-    a += "<h1>Publish</h1>";
-    a += "</div>";
-    a += '<div class="ui-body ui-body-a">';
-    a += '<div class="ui-grid-a">';
-    a += '<div class="ui-block-a" style="padding-right:7.5px;padding-top:15px;width:30%;">Topic</div>';
-    a += '<div class="ui-block-b" style="padding-left:7.5px;width:70%;"><input data-ui-field="configure_driver_mqqtt_propertylist_publishtopic" type="text" value="' +
-        d.PubTopic + '" onchange="" style="font-size:11pt" -class="ui-disabled" /></div>';
-    a += "</div>";
-    a += '<div class="ui-grid-a">';
-    a += '<div class="ui-block-a" style="padding-right:7.5px;padding-top:15px;width:30%;">QoS</div>';
-    a += '<div class="ui-block-b" style="padding-left:7.5px;width:70%;">';
-    a += '<select data-ui-field="configure_driver_mqqtt_propertylist_publishqas" name="select-native-1" id="select-native-1">';
-    a += "<option ";
-    0 == d.PubQaS && (a += 'selected="selected"');
-    a += 'value="0">QoS0, At most once</option>';
-    a += "<option ";
-    1 == d.PubQaS && (a += 'selected="selected"');
-    a += 'value="1">QoS1, At least once</option>';
-    a += "<option ";
-    2 == d.PubQaS && (a += 'selected="selected"');
-    a += 'value="2">QoS2, Exactly once</option>';
-    a += "</select>";
-    a += "</div>";
-    a += "</div>";
-    a += '<div class="ui-grid-solo">';
-    a += '<div class="ui-block-a" ><label><input data-ui-field="configure_driver_mqqtt_propertylist_publishretain" type="checkbox" ';
-    d.PubRetain && (a += 'checked="checked"');
-    a += 'onchange="" style="font-size:11pt" -class="ui-disabled" />Retain</label></div>';
-    a += "</div>";
-    a += "</div>";
-    a += "</div>";
-    a += '<div class="ui-corner-all custom-corners">';
-    a += '<div class="ui-bar ui-bar-a">';
-    a += "<h1>Subscribe</h1>";
-    a += "</div>";
-    a += '<div class="ui-body ui-body-a">';
-    a += '<div class="ui-grid-a">';
-    a += '<div class="ui-block-a" style="padding-right:7.5px;padding-top:15px;width:30%;">Topic</div>';
-    a += '<div class="ui-block-b" style="padding-left:7.5px;width:70%;"><input data-ui-field="configure_driver_mqqtt_propertylist_subscribetopic" type="text" value="' + d.SubTopic + '" onchange="" style="font-size:11pt" -class="ui-disabled" /></div>';
-    a += "</div>";
-    a += '<div class="ui-grid-a">';
-    a += '<div class="ui-block-a" style="padding-right:7.5px;padding-top:15px;width:30%;">QoS</div>';
-    a += '<div class="ui-block-b" style="padding-left:7.5px;width:70%;">';
-    a += '<select data-ui-field="configure_driver_mqqtt_propertylist_subscribeqas" name="select-native-1" id="select2">';
-    a += "<option ";
-    0 == d.SubQaS && (a += 'selected="selected"');
-    a += 'value="0">QoS0, At most once</option>';
-    a += "<option ";
-    1 == d.SubQaS && (a += 'selected="selected"');
-    a += 'value="1">QoS1, At least once</option>';
-    a += "<option ";
-    2 == d.SubQaS && (a += 'selected="selected"');
-    a += 'value="2">QoS2, Exactly once</option>';
-    a += "</select>";
-    a += "</div>";
-    a += "</div>";
-    a += "</div>";
-    a += "</div>";
-    a += "</li>";
-    $("#configure_driver_mqqtt_propertylist").append(a)
-};
-Ha.WebApp.Configure.MQTTClientFillNode = function (d) {
-    $("#configure_driver_mqqtt_propertylist").empty();
-    for (var a = 0; a < d.PropertyList.length; a++)property = d.PropertyList[a], Ha.WebApp.Configure.MQTTClientFillProperty(property);
-    $("#configure_driver_mqqtt_propertylist").trigger("create");
-    $("#configure_driver_mqqtt_propertylist").listview().listview("refresh")
-};
-Ha.WebApp.Configure.InitMQTTClientDriver = function () {
-    $("[id=configure_driver_mqttoptions]").each(function () {
-        $(this).hide()
-    });
-    $("#configure_driver_mqtt_enabled").unbind("slidestop");
-    Ha.Data.ServiceCall("Config/Driver/MQTTClient/GetIsEnabled/", null, "GET", function (d) {
-        $("#configure_driver_mqtt_enabled").val(d).slider("refresh");
-        "0" != $("#configure_driver_mqtt_enabled").val() ? $("[id=configure_driver_mqttoptions]").each(function () {
-                $(this).show()
-            }) : $("[id=configure_driver_mqttoptions]").each(function () {
-                $(this).hide()
-            })
-    });
-    $("#configure_driver_mqtt_enabled").on("slidestop", function (d) {
-        Ha.Data.ServiceCall("Config/Driver/MQTTClient/SetIsEnabled/" + $("#configure_driver_mqtt_enabled").val() + "/", null, "POST", function (a) {
-            $("#configure_driver_mqtt_enabled").val(a).slider("refresh");
-            "0" != $("#configure_driver_mqtt_enabled").val() ? $("[id=configure_driver_mqttoptions]").each(function () {
-                    $(this).show()
-                }) : $("[id=configure_driver_mqttoptions]").each(function () {
-                    $(this).hide()
-                })
-        })
-    });
-    $("#configure_driver_mqtt_debug").unbind("slidestop");
-    Ha.Data.ServiceCall("Config/Driver/MQTTClient/GetDebugMode/", null, "GET", function (d) {
-        $("#configure_driver_mqtt_debug").val(d).slider("refresh")
-    });
-    $("#configure_driver_mqtt_debug").on("slidestop", function (d) {
-        Ha.Data.ServiceCall("Config/Driver/MQTTClient/SetDebugMode/" + $("#configure_driver_mqtt_debug").val() + "/", null, "POST", function (a) {
-            $("#configure_driver_mqtt_debug").val(a).slider("refresh")
-        })
-    });
-    $("#configure_driver_mqqt_addconnection_button").unbind("click");
-    $("#configure_driver_mqqt_addconnection_button").on("click",
-        function (d) {
-            d = $("[data-ui-field=mqqt_connectionadd_hostname]").val();
-            var a = $("[data-ui-field=mqqt_connectionadd_port]").val(), b = $("[data-ui-field=mqqt_connectionadd_username]").val(), e = $("[data-ui-field=mqqt_connectionadd_password]").val(), f = $("[data-ui-field=mqqt_connectionadd_clientid]").val();
-            null != d && Ha.Data.ServiceCall("Config/Driver/MQTTClient/ConnectionAdd", JSON.stringify({
-                hostname: d,
-                port: a,
-                username: b,
-                password: e,
-                clientid: f
-            }), "POST", function (a) {
-            })
-        });
-    $("#configure_driver_mqqtt_removeconn_popup").unbind("popupbeforeposition");
-    $("#configure_driver_mqqtt_removeconn_popup").on("popupbeforeposition", function (d) {
-        Ha.WebApp.Configure.MQTTClientConnectionListViewItems(function (a) {
-            $("#configure_driver_mqqtt_removeconn").empty();
-            $("#configure_driver_mqqtt_removeconn").append(a);
-            $("#configure_driver_mqqtt_removeconn").selectmenu("refresh")
-        })
-    });
-    $("#configure_driver_mqqtt_removeconn_button").unbind("click");
-    $("#configure_driver_mqqtt_removeconn_button").on("click", function (d) {
-        d = $("#configure_driver_mqqtt_removeconn").find(":selected").attr("data-context-connid");
-        null != d && Ha.Data.ServiceCall("Config/Driver/MQTTClient/ConnectionRemove/" + d, null, "POST", function (a) {
-        })
-    });
-    $("#configure_driver_mqqtt_editconn_popup").unbind("popupbeforeposition");
-    $("#configure_driver_mqqtt_editconn_popup").on("popupbeforeposition", function (d) {
-        Ha.WebApp.Configure.MQTTNodeTmp = null;
-        Ha.WebApp.Configure.MQTTClientConnectionListViewItems(function (a) {
-            var b = !1;
-            $("#configure_driver_mqqtt_editconn").empty();
-            $("#configure_driver_mqqtt_editconn").append(a);
-            $("#configure_driver_mqqtt_editconn").selectmenu("refresh");
-            a = $("#configure_driver_mqqtt_editconn").find(":selected");
-            Ha.Data.ServiceCall("Config/Driver/MQTTClient/ConnectionGet/" + a.attr("data-context-connid"), null, "GET", function (a) {
-                $("[data-ui-field=mqtt_connectionedit_hostname]").val(a.Hostname);
-                $("[data-ui-field=mqtt_connectionedit_port]").val(a.Port);
-                $("[data-ui-field=mqtt_connectionedit_username]").val(a.Username);
-                $("[data-ui-field=mqtt_connectionedit_password]").val(a.Password);
-                $("[data-ui-field=mqtt_connectionedit_clientid]").val(a.Clientid)
-            });
-            b = !0;
-            $("#configure_driver_mqqtt_editconn").on("change", function (a) {
-                b && (a = $("#configure_driver_mqqtt_editconn").find(":selected"), Ha.Data.ServiceCall("Config/Driver/MQTTClient/ConnectionGet/" + a.attr("data-context-connid"), null, "GET", function (a) {
-                    $("[data-ui-field=mqtt_connectionedit_hostname]").val(a.Hostname);
-                    $("[data-ui-field=mqtt_connectionedit_port]").val(a.Port);
-                    $("[data-ui-field=mqtt_connectionedit_username]").val(a.Username);
-                    $("[data-ui-field=mqtt_connectionedit_password]").val(a.Password);
-                    $("[data-ui-field=mqtt_connectionedit_clientid]").val(a.Clientid)
-                }))
-            })
-        })
-    });
-    $("#configure_driver_mqtt_editconn_button").unbind("click");
-    $("#configure_driver_mqtt_editconn_button").on("click", function (d) {
-        d = $("#configure_driver_mqqtt_editconn").find(":selected").attr("data-context-connid");
-        if (null != d) {
-            var a = $("[data-ui-field=mqtt_connectionedit_hostname]").val(), b = $("[data-ui-field=mqtt_connectionedit_port]").val(), e = $("[data-ui-field=mqtt_connectionedit_username]").val(), f = $("[data-ui-field=mqtt_connectionedit_password]").val(), g = $("[data-ui-field=mqtt_connectionedit_clientid]").val();
-            Ha.Data.ServiceCall("Config/Driver/MQTTClient/ConnectionEdit", JSON.stringify({
-                id: d,
-                hostname: a,
-                port: b,
-                username: e,
-                password: f,
-                clientid: g
-            }), "POST", function (a) {
-            })
-        }
-    });
-    $("#configure_driver_mqqtt_node_popup").unbind("popupbeforeposition");
-    $("#configure_driver_mqqtt_node_popup").on("popupbeforeposition", function (d) {
-        d = $("#configure_driver_mqqtt_node_popup").attr("mode");
-        $("#configure_driver_mqqtt_node_nodelist").empty();
-        $("#configure_driver_mqqtt_node_nodelist").selectmenu("refresh");
-        $("#configure_driver_mqqtt_node_conectionlist").empty();
-        $("#configure_driver_mqqtt_node_conectionlist").selectmenu("refresh");
-        "add" == d ? ($("#configure_driver_mqqtt_node_popup_title").html("Add node"), $("#configure_driver_mqqtt_node_update_button").html("Add node"), $("#configure_driver_mqqtt_node_removeproperty_button").addClass("ui-disabled"), $("#configure_driver_mqqtt_node_addproperty_button").removeClass("ui-disabled"), $("#configure_driver_mqqtt_node_conectionlist").removeClass("ui-disabled"), $("#configure_driver_mqqtt_node_nodelist").addClass("ui-disabled"),
-                $("#configure_driver_mqqtt_propertylist").removeClass("ui-disabled")) : "edit" == d ? ($("#configure_driver_mqqtt_node_popup_title").html("Edit node"), $("#configure_driver_mqqtt_node_update_button").html("Update node"), $("#configure_driver_mqqtt_node_removeproperty_button").addClass("ui-disabled"), $("#configure_driver_mqqtt_node_addproperty_button").removeClass("ui-disabled"), $("#configure_driver_mqqtt_node_conectionlist").addClass("ui-disabled"), $("#configure_driver_mqqtt_node_nodelist").removeClass("ui-disabled"),
-                    $("#configure_driver_mqqtt_node_conectionlist").selectmenu("refresh"), $("#configure_driver_mqqtt_node_nodelist").unbind("change"), Ha.WebApp.Configure.MQTTClientNodeListViewItems(function (a) {
-                    $("#configure_driver_mqqtt_node_nodelist").empty();
-                    $("#configure_driver_mqqtt_node_nodelist").append(a);
-                    $("#configure_driver_mqqtt_node_nodelist").selectmenu("refresh");
-                    var b = !1;
-                    a = $("#configure_driver_mqqtt_node_nodelist").find(":selected").attr("data-context-nodeid");
-                    Ha.Data.ServiceCall("Config/Driver/MQTTClient/NodeGet/" +
-                        a, null, "GET", function (a) {
-                        $("#configure_driver_mqqtt_node_conectionlist").val(a.ConnectionId);
-                        $("#configure_driver_mqqtt_node_conectionlist").selectmenu("refresh");
-                        Ha.WebApp.Configure.MQTTClientFillNode(a)
-                    });
-                    $("#configure_driver_mqqtt_propertylist").removeClass("ui-disabled");
-                    b = !0;
-                    $("#configure_driver_mqqtt_node_nodelist").on("change", function (a) {
-                        b && (a = $("#configure_driver_mqqtt_node_nodelist").find(":selected").attr("data-context-nodeid"), Ha.Data.ServiceCall("Config/Driver/MQTTClient/NodeGet/" + a,
-                            null, "GET", function (a) {
-                                $("#configure_driver_mqqtt_node_conectionlist").val(a.ConnectionId);
-                                $("#configure_driver_mqqtt_node_conectionlist").selectmenu("refresh");
-                                Ha.WebApp.Configure.MQTTClientFillNode(a)
-                            }))
-                    })
-                })) : ($("#configure_driver_mqqtt_node_popup_title").html("Remove node"), $("#configure_driver_mqqtt_node_update_button").html("Remove node"), $("#configure_driver_mqqtt_node_removeproperty_button").addClass("ui-disabled"), $("#configure_driver_mqqtt_node_addproperty_button").addClass("ui-disabled"),
-                    $("#configure_driver_mqqtt_node_conectionlist").addClass("ui-disabled"), $("#configure_driver_mqqtt_node_nodelist").removeClass("ui-disabled"), Ha.WebApp.Configure.MQTTClientNodeListViewItems(function (a) {
-                    $("#configure_driver_mqqtt_node_nodelist").empty();
-                    $("#configure_driver_mqqtt_node_nodelist").append(a);
-                    $("#configure_driver_mqqtt_node_nodelist").selectmenu("refresh");
-                    var b = !1;
-                    a = $("#configure_driver_mqqtt_node_nodelist").find(":selected").attr("data-context-nodeid");
-                    Ha.Data.ServiceCall("Config/Driver/MQTTClient/NodeGet/" +
-                        a, null, "GET", function (a) {
-                        $("#configure_driver_mqqtt_node_conectionlist").val(a.ConnectionId);
-                        $("#configure_driver_mqqtt_node_conectionlist").selectmenu("refresh");
-                        Ha.WebApp.Configure.MQTTClientFillNode(a)
-                    });
-                    $("#configure_driver_mqqtt_propertylist").addClass("ui-disabled");
-                    b = !0;
-                    $("#configure_driver_mqqtt_node_nodelist").on("change", function (a) {
-                        b && (a = $("#configure_driver_mqqtt_node_nodelist").find(":selected").attr("data-context-nodeid"), Ha.Data.ServiceCall("Config/Driver/MQTTClient/NodeGet/" + a, null,
-                            "GET", function (a) {
-                                $("#configure_driver_mqqtt_node_conectionlist").val(a.ConnectionId);
-                                $("#configure_driver_mqqtt_node_conectionlist").selectmenu("refresh");
-                                Ha.WebApp.Configure.MQTTClientFillNode(a)
-                            }))
-                    })
-                }));
-        $("#configure_driver_mqqtt_propertylist").empty();
-        Ha.WebApp.Configure.MQTTClientConnectionListViewItems(function (a) {
-            $("#configure_driver_mqqtt_node_conectionlist").empty();
-            $("#configure_driver_mqqtt_node_conectionlist").append(a);
-            $("#configure_driver_mqqtt_node_conectionlist").selectmenu("refresh")
-        });
-        $("#configure_driver_mqqtt_node_update_button").unbind("click");
-        $("#configure_driver_mqqtt_node_update_button").click(function () {
-            var a = $("#configure_driver_mqqtt_node_popup").attr("mode");
-            if ("add" == a) {
-                var b = {
-                    Id: 0,
-                    ConnectionId: 0,
-                    PropertyList: []
-                }, a = $("#configure_driver_mqqtt_node_conectionlist").find(":selected");
-                null != a && (b.ConnectionId = a.attr("data-context-connid"));
-                $("#configure_driver_mqqtt_propertylist li").each(function (a) {
-                    console.log(a + ": " + $(this).text());
-                    a = $(this).find("[data-ui-field=configure_driver_mqqtt_propertylist_property]").val();
-                    var d = $(this).find("[data-ui-field=configure_driver_mqqtt_propertylist_publishtopic]").val(), g = $(this).find("[data-ui-field=configure_driver_mqqtt_propertylist_publishqas]").val(), h = "false";
-                    $(this).find("[data-ui-field=configure_driver_mqqtt_propertylist_publishretain]").is(":checked") && (h = "true");
-                    var l = $(this).find("[data-ui-field=configure_driver_mqqtt_propertylist_subscribetopic]").val(), p = $(this).find("[data-ui-field=configure_driver_mqqtt_propertylist_subscribeqas]").val();
-                    b.PropertyList.push({
-                        Property: a,
-                        PubTopic: d, PubQaS: g, PubRetain: h, SubTopic: l, SubQaS: p
-                    });
-                    Ha.Data.ServiceCall("Config/Driver/MQTTClient/NodeAdd", JSON.stringify(b), "POST", function (a) {
-                    })
-                })
-            } else"edit" == a ? (b = {
-                    Id: 0,
-                    ConnectionId: 0,
-                    PropertyList: []
-                }, a = $("#configure_driver_mqqtt_node_conectionlist").find(":selected"), null != a && (b.ConnectionId = a.attr("data-context-connid")), a = $("#configure_driver_mqqtt_node_nodelist").find(":selected"), null != a && (b.Id = a.attr("data-context-nodeid")), $("#configure_driver_mqqtt_propertylist li").each(function (a) {
-                    console.log(a +
-                        ": " + $(this).text());
-                    a = $(this).find("[data-ui-field=configure_driver_mqqtt_propertylist_property]").val();
-                    var d = $(this).find("[data-ui-field=configure_driver_mqqtt_propertylist_publishtopic]").val(), g = $(this).find("[data-ui-field=configure_driver_mqqtt_propertylist_publishqas]").val(), h = "false";
-                    $(this).find("[data-ui-field=configure_driver_mqqtt_propertylist_publishretain]").is(":checked") && (h = "true");
-                    var l = $(this).find("[data-ui-field=configure_driver_mqqtt_propertylist_subscribetopic]").val(), p =
-                        $(this).find("[data-ui-field=configure_driver_mqqtt_propertylist_subscribeqas]").val();
-                    b.PropertyList.push({Property: a, PubTopic: d, PubQaS: g, PubRetain: h, SubTopic: l, SubQaS: p});
-                    Ha.Data.ServiceCall("Config/Driver/MQTTClient/NodeEdit", JSON.stringify(b), "POST", function (a) {
-                    })
-                })) : (a = $("#configure_driver_mqqtt_node_nodelist").find(":selected"), a = a.attr("data-context-nodeid"), Ha.Data.ServiceCall("Config/Driver/MQTTClient/NodeRemove/" + a, null, "POST", function (a) {
-                }))
-        })
-    })
-};
-Ha.WebApp.Configure.MQTTClientConenctionAdd = function () {
-    $("[data-ui-field=mqqt_connectionadd_hostname]").val("");
-    $("[data-ui-field=mqqt_connectionadd_port]").val("1883");
-    $("[data-ui-field=mqqt_connectionadd_username]").val("");
-    $("[data-ui-field=mqqt_connectionadd_password]").val("");
-    $("[data-ui-field=mqqt_connectionadd_clientid]").val("");
-    $("#configure_driver_mqqtt_addconn_popup").popup("open")
-};
-Ha.WebApp.Configure.MQTTClientConnectionRemovePopup = function () {
-    $("#configure_driver_mqqtt_removeconn_popup").popup("open")
-};
-Ha.WebApp.Configure.MQTTClientConnectionEditPopup = function () {
-    $("#configure_driver_mqqtt_editconn_popup").popup("open")
-};
-Ha.WebApp.Configure.MQTTNodeAdd = function () {
-    $("#configure_driver_mqqtt_node_popup").attr("mode", "add");
-    $("#configure_driver_mqqtt_node_popup").popup("open")
-};
-Ha.WebApp.Configure.MQTTNodeRemove = function () {
-    $("#configure_driver_mqqtt_node_popup").attr("mode", "remove");
-    $("#configure_driver_mqqtt_node_popup").popup("open")
-};
-Ha.WebApp.Configure.MQTTNodeEdit = function () {
-    $("#configure_driver_mqqtt_node_popup").attr("mode", "edit");
-    $("#configure_driver_mqqtt_node_popup").popup("open")
-};
-Ha.WebApp.Configure.MqttPropertyAdd = function () {
-    Ha.WebApp.Configure.MQTTClientFillProperty({
-        Property: "",
-        PubTopic: "",
-        PubQaS: 0,
-        PubRetain: !1,
-        SubTopic: "",
-        SubQaS: 0
-    });
-    $("#configure_driver_mqqtt_propertylist").trigger("create");
-    $("#configure_driver_mqqtt_propertylist").listview().listview("refresh");
-    $("#configure_driver_mqqtt_propertylist input").unbind("focus");
-    $("#configure_driver_mqqtt_propertylist input").focus(function () {
-        var d = $(this).closest("li");
-        "#E6E6FA" != d.css("background") && ($(this).attr("originalbackground",
-            d.css("background")), d.css("background", "#E6E6FA"), null != Ha.WebApp.Configure.MQTTNodeTmp && Ha.WebApp.Configure.MQTTNodeTmp.css("background", $(this).attr("originalbackground")), Ha.WebApp.Configure.MQTTNodeTmp = d, setTimeout("$('#configure_driver_mqqtt_node_removeproperty_button').removeClass('ui-disabled')", 250))
-    });
-    $("#configure_driver_mqqtt_propertylist select").unbind("focus");
-    $("#configure_driver_mqqtt_propertylist select").focus(function () {
-        var d = $(this).closest("li");
-        "#E6E6FA" != d.css("background") &&
-        ($(this).attr("originalbackground", d.css("background")), d.css("background", "#E6E6FA"), null != Ha.WebApp.Configure.MQTTNodeTmp && Ha.WebApp.Configure.MQTTNodeTmp.css("background", $(this).attr("originalbackground")), Ha.WebApp.Configure.MQTTNodeTmp = d, setTimeout("$('#configure_driver_mqqtt_node_removeproperty_button').removeClass('ui-disabled')", 250))
-    });
-    $("#configure_driver_mqqtt_propertylist input").unbind("click");
-    $("#configure_driver_mqqtt_propertylist input").click(function () {
-        var d = $(this).closest("li");
-        "#E6E6FA" != d.css("background") && ($(this).attr("originalbackground", d.css("background")), d.css("background", "#E6E6FA"), null != Ha.WebApp.Configure.MQTTNodeTmp && Ha.WebApp.Configure.MQTTNodeTmp.css("background", $(this).attr("originalbackground")), Ha.WebApp.Configure.MQTTNodeTmp = d, setTimeout("$('#configure_driver_mqqtt_node_removeproperty_button').removeClass('ui-disabled')", 250))
-    })
-};
-Ha.WebApp.Configure.MqttPropertyRemove = function () {
-    null != Ha.WebApp.Configure.MQTTNodeTmp && $("#configure_driver_mqqtt_propertylist").find(Ha.WebApp.Configure.MQTTNodeTmp).remove();
-    Ha.WebApp.Configure.MQTTNodeTmp = null;
-    setTimeout("$('#configure_driver_mqqtt_node_removeproperty_button').addClass('ui-disabled')", 250)
 };
 Ha.WebApp.Events = Ha.WebApp.Events || {};
 Ha.WebApp.Events._statuspopupTimeout = null;
@@ -1779,9 +1243,22 @@ Ha.WebApp.InitializePage = function () {
     Ha.WebApp.Events.InitializePage();
     Ha.WebApp.Control.ReloadPage();
     $("[data-role=page]").on("pagebeforeshow", function (d) {
-        "page_config" != this.id && ("page_groupmodules_groups" == this.id ? Ha.WebApp.Configure.ReloadGroups() : "page_groupmodules_groupmodules" == this.id ? Ha.WebApp.Configure.ReloadModules() : "page_config_drivers_mysensors" == this.id ? Ha.WebApp.Configure.InitMySensorsDriver() : "page_config_drivers" !=
-                    this.id && ("page_config_drivers_mysensors" == this.id ? Ha.WebApp.Configure.InitMySensorsDriver() : "page_config_drivers_rpigpio" == this.id ? Ha.WebApp.Configure.InitRPiGPIODriver() : "page_config_drivers_esp8266easyiot" == this.id ? Ha.WebApp.Configure.InitEsp8266EasyIoTDriver() : "page_config_drivers_virtual" == this.id ? Ha.WebApp.Configure.InitVirtualDriver() : "page_config_drivers_mqtt" == this.id ? Ha.WebApp.Configure.InitMQTTClientDriver() : "page_control" == this.id ? Ha.WebApp.Control.ReloadPage() : "page_config_webinterface" ==
-                                            this.id ? Ha.WebApp.Configure.InitWebinterface() : "page_config_smsinterface" == this.id ? Ha.WebApp.Configure.InitSmsinterface() : "page_automation_automationgroups" == this.id ? Ha.WebApp.Configure.InitAutomationGroups() : "page_automation_automationlist" == this.id ? Ha.WebApp.Configure.InitAutomationList() : "page_automation_automationprogramparam" == this.id ? Ha.WebApp.Configure.InitProgramParam() : "page_automation_automationprogram" == this.id ? Ha.WebApp.Configure.InitProgram() : "page_config_generalsettings" == this.id ? Ha.WebApp.Configure.InitGeneralSettings() :
-                                                                        "page_control_chart" == this.id && Ha.WebApp.Control.InitChart()))
+        "page_config" != this.id &&
+        ("page_groupmodules_groups" == this.id ? Ha.WebApp.Configure.ReloadGroups() :
+                "page_groupmodules_groupmodules" == this.id ? Ha.WebApp.Configure.ReloadModules() :
+                    "page_config_drivers" != this.id &&
+                    ("page_config_drivers_rpigpio" == this.id ? Ha.WebApp.Configure.InitRPiGPIODriver() :
+                            "page_config_drivers_virtual" == this.id ? Ha.WebApp.Configure.InitVirtualDriver() :
+                                "page_control" == this.id ? Ha.WebApp.Control.ReloadPage() :
+                                    "page_config_webinterface" == this.id ? Ha.WebApp.Configure.InitWebInterface() :
+                                        "page_config_smsinterface" == this.id ? Ha.WebApp.Configure.InitSmsInterface() :
+                                            "page_automation_automationgroups" == this.id ? Ha.WebApp.Configure.InitAutomationGroups() :
+                                                "page_automation_automationlist" == this.id ? Ha.WebApp.Configure.InitAutomationList() :
+                                                    "page_automation_automationprogramparam" == this.id ? Ha.WebApp.Configure.InitProgramParam() :
+                                                        "page_automation_automationprogram" == this.id ? Ha.WebApp.Configure.InitProgram() :
+                                                            "page_config_generalsettings" == this.id ? Ha.WebApp.Configure.InitGeneralSettings() :
+                                                                "page_control_chart" == this.id && Ha.WebApp.Control.InitChart()
+                    )
+        )
     })
 };

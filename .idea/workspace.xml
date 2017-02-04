@@ -1,8 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f287e36a-c3ea-42c2-b092-22bff8a3c580" name="Default" comment="Workspace">
+    <list default="true" id="f287e36a-c3ea-42c2-b092-22bff8a3c580" name="Default" comment="clean code">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/themes/default/jquery.mobile-1.4.3.min.css" afterPath="$PROJECT_DIR$/html/css/themes/default/jquery.mobile-1.4.3.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.external-png-1.4.3.min.css" afterPath="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.external-png-1.4.3.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.icons-1.4.3.min.css" afterPath="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.icons-1.4.3.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.inline-png-1.4.3.min.css" afterPath="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.inline-png-1.4.3.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.inline-svg-1.4.3.min.css" afterPath="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.inline-svg-1.4.3.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.structure-1.4.3.min.css" afterPath="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.structure-1.4.3.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.theme-1.4.3.min.css" afterPath="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.theme-1.4.3.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index.html" afterPath="$PROJECT_DIR$/html/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/Ha.WebApp.js" afterPath="$PROJECT_DIR$/html/js/Ha.WebApp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/codemirror-4.5/codemirror-compressed.js" afterPath="$PROJECT_DIR$/html/js/codemirror-4.5/codemirror-compressed.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/eventsource.min.js" afterPath="$PROJECT_DIR$/html/js/eventsource.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/flot/excanvas.min.js" afterPath="$PROJECT_DIR$/html/js/flot/excanvas.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/flot/jquery.colorhelpers.min.js" afterPath="$PROJECT_DIR$/html/js/flot/jquery.colorhelpers.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/flot/jquery.flot.canvas.min.js" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.canvas.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/flot/jquery.flot.categories.min.js" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.categories.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/flot/jquery.flot.crosshair.min.js" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.crosshair.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/flot/jquery.flot.errorbars.min.js" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.errorbars.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/flot/jquery.flot.fillbetween.min.js" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.fillbetween.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/flot/jquery.flot.image.min.js" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.image.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/flot/jquery.flot.min.js" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/flot/jquery.flot.navigate.min.js" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.navigate.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/flot/jquery.flot.pie.min.js" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.pie.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/flot/jquery.flot.resize.min.js" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.resize.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/flot/jquery.flot.selection.min.js" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.selection.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/flot/jquery.flot.stack.min.js" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.stack.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/flot/jquery.flot.symbol.min.js" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.symbol.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/flot/jquery.flot.threshold.min.js" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.threshold.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/flot/jquery.flot.time.min.js" afterPath="$PROJECT_DIR$/html/js/flot/jquery.flot.time.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/jquery-ui.min.js" afterPath="$PROJECT_DIR$/html/js/jquery-ui.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/jquery.min.js" afterPath="$PROJECT_DIR$/html/js/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/jquery.mobile-1.4.3.min.js" afterPath="$PROJECT_DIR$/html/js/jquery.mobile-1.4.3.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/js/knob/jquery.knob.min.js" afterPath="$PROJECT_DIR$/html/js/knob/jquery.knob.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/pages/control/chart.html" afterPath="$PROJECT_DIR$/html/pages/control/chart.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,15 +59,15 @@
       <file leaf-file-name="easyiot.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/css/easyiot.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="76" column="21" lean-forward="false" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+            <state relative-caret-position="1088">
+              <caret line="64" column="20" lean-forward="false" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/pages/config/config.html">
+      <file leaf-file-name="jquery-ui.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/jquery-ui.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -43,18 +76,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="drivers.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/drivers.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mqtt.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/mqtt.html">
+      <file leaf-file-name="codemirror.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/css/codemirror-4.5/codemirror.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -63,117 +86,390 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mysensors.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/mysensors.html">
+      <file leaf-file-name="csharpcolors.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/css/codemirror-4.5/csharpcolors.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="155" column="58" lean-forward="true" selection-start-line="155" selection-start-column="58" selection-end-line="155" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-13320">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ha.WebApp.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/js/Ha.WebApp.js">
+      <file leaf-file-name="docs.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/css/codemirror-4.5/docs.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14943">
-              <caret line="879" column="0" lean-forward="false" selection-start-line="879" selection-start-column="0" selection-end-line="879" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.mobile.inline-png-1.4.3.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/css/themes/default/jquery.mobile.inline-png-1.4.3.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3043">
+              <caret line="179" column="478" lean-forward="false" selection-start-line="179" selection-start-column="478" selection-end-line="179" selection-end-column="478" />
               <folding>
-                <marker date="1486205306065" expanded="true" signature="7932:7943" ph=" " />
-                <marker date="1486205306065" expanded="true" signature="27192:27227" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="27385:27394" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="27446:27457" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="27538:27591" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="27658:27698" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="27860:27902" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="28292:28327" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="28489:28498" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="28550:28561" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="28642:28695" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="28762:28802" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="28948:28990" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="29283:29294" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="29467:29478" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="29717:29771" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="29830:29839" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="29946:29970" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="30652:30687" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="30841:30850" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="30902:30913" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="30994:31047" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="31114:31154" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="31300:31342" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="31635:31646" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="31819:31830" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="31921:31975" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="32050:32059" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="32192:32201" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="32303:32327" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="32677:32701" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="33051:33075" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="40504:40515" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="62697:62744" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="62812:62842" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="63039:63053" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="63209:63256" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="63331:63360" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="63571:63585" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="63741:63788" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="63857:63886" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="64069:64083" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="64251:64298" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="64366:64395" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="64576:64590" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="64758:64805" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="64878:64907" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="65109:65123" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="71392:71401" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="85894:85920" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="98103:98112" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="99079:99088" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="100651:100698" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="100758:100787" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="100923:100937" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="101294:101341" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="101398:101427" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="101567:101581" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="101711:101758" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="101813:101842" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="103038:103085" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="103142:103171" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="103305:103319" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="103449:103496" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="103551:103580" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="125112:125137" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="125607:125620" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="125675:125703" ph="..." />
-                <marker date="1486205306065" expanded="true" signature="125789:125816" ph="..." />
+                <element signature="e#184#517#2" expanded="true" />
+                <element signature="e#566#919#2" expanded="true" />
+                <element signature="e#972#1233#2" expanded="true" />
+                <element signature="e#1286#1543#2" expanded="true" />
+                <element signature="e#1594#1823#2" expanded="true" />
+                <element signature="e#1874#2111#2" expanded="true" />
+                <element signature="e#2162#2395#2" expanded="true" />
+                <element signature="e#2448#2705#2" expanded="true" />
+                <element signature="e#2758#3007#2" expanded="true" />
+                <element signature="e#3058#3291#2" expanded="true" />
+                <element signature="e#3340#3789#2" expanded="true" />
+                <element signature="e#3837#4186#2" expanded="true" />
+                <element signature="e#4234#4443#2" expanded="true" />
+                <element signature="e#4494#4727#2" expanded="true" />
+                <element signature="e#4779#5000#2" expanded="true" />
+                <element signature="e#5050#5415#2" expanded="true" />
+                <element signature="e#5466#5779#2" expanded="true" />
+                <element signature="e#5830#6095#2" expanded="true" />
+                <element signature="e#6146#6435#2" expanded="true" />
+                <element signature="e#6486#6787#2" expanded="true" />
+                <element signature="e#6886#7147#2" expanded="true" />
+                <element signature="e#7196#7649#2" expanded="true" />
+                <element signature="e#7698#8007#2" expanded="true" />
+                <element signature="e#8058#8303#2" expanded="true" />
+                <element signature="e#8353#8630#2" expanded="true" />
+                <element signature="e#8678#8935#2" expanded="true" />
+                <element signature="e#8982#9351#2" expanded="true" />
+                <element signature="e#9404#9845#2" expanded="true" />
+                <element signature="e#9896#10249#2" expanded="true" />
+                <element signature="e#10297#10730#2" expanded="true" />
+                <element signature="e#10778#11031#2" expanded="true" />
+                <element signature="e#11080#11437#2" expanded="true" />
+                <element signature="e#11485#11722#2" expanded="true" />
+                <element signature="e#11770#12135#2" expanded="true" />
+                <element signature="e#12187#12548#2" expanded="true" />
+                <element signature="e#12596#12901#2" expanded="true" />
+                <element signature="e#12949#13282#2" expanded="true" />
+                <element signature="e#13331#13516#2" expanded="true" />
+                <element signature="e#13570#13923#2" expanded="true" />
+                <element signature="e#13972#14369#2" expanded="true" />
+                <element signature="e#14417#14614#2" expanded="true" />
+                <element signature="e#14663#15096#2" expanded="true" />
+                <element signature="e#15147#15516#2" expanded="true" />
+                <element signature="e#15567#16000#2" expanded="true" />
+                <element signature="e#16050#16507#2" expanded="true" />
+                <element signature="e#16555#16816#2" expanded="true" />
+                <element signature="e#16864#17213#2" expanded="true" />
+                <element signature="e#17260#17501#2" expanded="true" />
+                <element signature="e#17549#17906#2" expanded="true" />
+                <element signature="e#17955#18212#2" expanded="true" />
+                <element signature="e#18310#18631#2" expanded="true" />
+                <element signature="e#18727#19084#2" expanded="true" />
+                <element signature="e#19184#19409#2" expanded="true" />
+                <element signature="e#19513#19766#2" expanded="true" />
+                <element signature="e#19870#20111#2" expanded="true" />
+                <element signature="e#20211#20440#2" expanded="true" />
+                <element signature="e#20540#20765#2" expanded="true" />
+                <element signature="e#20865#21090#2" expanded="true" />
+                <element signature="e#21194#21443#2" expanded="true" />
+                <element signature="e#21547#21796#2" expanded="true" />
+                <element signature="e#21892#22333#2" expanded="true" />
+                <element signature="e#22427#22768#2" expanded="true" />
+                <element signature="e#22862#23067#2" expanded="true" />
+                <element signature="e#23167#23392#2" expanded="true" />
+                <element signature="e#23494#23719#2" expanded="true" />
+                <element signature="e#23817#24182#2" expanded="true" />
+                <element signature="e#24282#24587#2" expanded="true" />
+                <element signature="e#24687#24948#2" expanded="true" />
+                <element signature="e#25048#25325#2" expanded="true" />
+                <element signature="e#25425#25718#2" expanded="true" />
+                <element signature="e#25909#26166#2" expanded="true" />
+                <element signature="e#26262#26707#2" expanded="true" />
+                <element signature="e#26803#27116#2" expanded="true" />
+                <element signature="e#27216#27465#2" expanded="true" />
+                <element signature="e#27563#27820#2" expanded="true" />
+                <element signature="e#27914#28163#2" expanded="true" />
+                <element signature="e#28255#28616#2" expanded="true" />
+                <element signature="e#28720#29149#2" expanded="true" />
+                <element signature="e#29249#29590#2" expanded="true" />
+                <element signature="e#29684#30137#2" expanded="true" />
+                <element signature="e#30231#30476#2" expanded="true" />
+                <element signature="e#30572#30925#2" expanded="true" />
+                <element signature="e#31019#31248#2" expanded="true" />
+                <element signature="e#31342#31707#2" expanded="true" />
+                <element signature="e#31809#32166#2" expanded="true" />
+                <element signature="e#32260#32561#2" expanded="true" />
+                <element signature="e#32655#32988#2" expanded="true" />
+                <element signature="e#33084#33269#2" expanded="true" />
+                <element signature="e#33375#33728#2" expanded="true" />
+                <element signature="e#33824#34213#2" expanded="true" />
+                <element signature="e#34307#34500#2" expanded="true" />
+                <element signature="e#34596#35017#2" expanded="true" />
+                <element signature="e#35117#35470#2" expanded="true" />
+                <element signature="e#35570#35995#2" expanded="true" />
+                <element signature="e#36117#36578#2" expanded="true" />
+                <element signature="e#36672#36933#2" expanded="true" />
+                <element signature="e#37027#37364#2" expanded="true" />
+                <element signature="e#37456#37697#2" expanded="true" />
+                <element signature="e#37791#38148#2" expanded="true" />
+                <element signature="e#38244#38501#2" expanded="true" />
+                <element signature="e#98810#98899#2" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="esp8266.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/esp8266.html">
+      <file leaf-file-name="jquery.mobile.inline-svg-1.4.3.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/css/themes/default/jquery.mobile.inline-svg-1.4.3.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="3434">
+              <caret line="202" column="71" lean-forward="false" selection-start-line="202" selection-start-column="71" selection-end-line="202" selection-end-column="71" />
+              <folding>
+                <element signature="e#184#993#2" expanded="true" />
+                <element signature="e#1042#2000#2" expanded="true" />
+                <element signature="e#2053#3078#2" expanded="true" />
+                <element signature="e#3131#4156#2" expanded="true" />
+                <element signature="e#4207#5220#2" expanded="true" />
+                <element signature="e#5271#6285#2" expanded="true" />
+                <element signature="e#6336#7349#2" expanded="true" />
+                <element signature="e#7402#8427#2" expanded="true" />
+                <element signature="e#8480#9505#2" expanded="true" />
+                <element signature="e#9556#10570#2" expanded="true" />
+                <element signature="e#10619#12047#2" expanded="true" />
+                <element signature="e#12095#12902#2" expanded="true" />
+                <element signature="e#12950#14006#2" expanded="true" />
+                <element signature="e#14057#15410#2" expanded="true" />
+                <element signature="e#15462#16790#2" expanded="true" />
+                <element signature="e#16840#18012#2" expanded="true" />
+                <element signature="e#18063#18867#2" expanded="true" />
+                <element signature="e#18918#19723#2" expanded="true" />
+                <element signature="e#19774#20578#2" expanded="true" />
+                <element signature="e#20629#21434#2" expanded="true" />
+                <element signature="e#21533#22336#2" expanded="true" />
+                <element signature="e#22385#23639#2" expanded="true" />
+                <element signature="e#23688#24735#2" expanded="true" />
+                <element signature="e#24786#25876#2" expanded="true" />
+                <element signature="e#25926#26987#2" expanded="true" />
+                <element signature="e#27035#28052#2" expanded="true" />
+                <element signature="e#28099#29099#2" expanded="true" />
+                <element signature="e#29152#30710#2" expanded="true" />
+                <element signature="e#30761#31563#2" expanded="true" />
+                <element signature="e#31611#34642#2" expanded="true" />
+                <element signature="e#34690#36876#2" expanded="true" />
+                <element signature="e#36925#37769#2" expanded="true" />
+                <element signature="e#37817#38867#2" expanded="true" />
+                <element signature="e#38915#40080#2" expanded="true" />
+                <element signature="e#40132#41046#2" expanded="true" />
+                <element signature="e#41094#42083#2" expanded="true" />
+                <element signature="e#42131#42899#2" expanded="true" />
+                <element signature="e#42948#43693#2" expanded="true" />
+                <element signature="e#43747#44495#2" expanded="true" />
+                <element signature="e#44544#45972#2" expanded="true" />
+                <element signature="e#46020#47075#2" expanded="true" />
+                <element signature="e#47124#48572#2" expanded="true" />
+                <element signature="e#48623#49649#2" expanded="true" />
+                <element signature="e#49700#51042#2" expanded="true" />
+                <element signature="e#51092#52168#2" expanded="true" />
+                <element signature="e#52216#53271#2" expanded="true" />
+                <element signature="e#53319#54127#2" expanded="true" />
+                <element signature="e#54174#55238#2" expanded="true" />
+                <element signature="e#55286#56820#2" expanded="true" />
+                <element signature="e#56869#57740#2" expanded="true" />
+                <element signature="e#57838#58611#2" expanded="true" />
+                <element signature="e#58707#59629#2" expanded="true" />
+                <element signature="e#59729#60720#2" expanded="true" />
+                <element signature="e#60824#61827#2" expanded="true" />
+                <element signature="e#61931#62934#2" expanded="true" />
+                <element signature="e#63034#64026#2" expanded="true" />
+                <element signature="e#64126#65117#2" expanded="true" />
+                <element signature="e#65217#66209#2" expanded="true" />
+                <element signature="e#66313#67316#2" expanded="true" />
+                <element signature="e#67420#68423#2" expanded="true" />
+                <element signature="e#68519#69925#2" expanded="true" />
+                <element signature="e#70019#70790#2" expanded="true" />
+                <element signature="e#70884#71904#2" expanded="true" />
+                <element signature="e#72004#73318#2" expanded="true" />
+                <element signature="e#73420#74726#2" expanded="true" />
+                <element signature="e#74824#75957#2" expanded="true" />
+                <element signature="e#76057#76825#2" expanded="true" />
+                <element signature="e#76925#77694#2" expanded="true" />
+                <element signature="e#77794#78562#2" expanded="true" />
+                <element signature="e#78662#79431#2" expanded="true" />
+                <element signature="e#79622#80389#2" expanded="true" />
+                <element signature="e#80485#81717#2" expanded="true" />
+                <element signature="e#81813#82824#2" expanded="true" />
+                <element signature="e#82924#83992#2" expanded="true" />
+                <element signature="e#84090#85129#2" expanded="true" />
+                <element signature="e#85223#86218#2" expanded="true" />
+                <element signature="e#86310#87274#2" expanded="true" />
+                <element signature="e#87378#88914#2" expanded="true" />
+                <element signature="e#89014#89780#2" expanded="true" />
+                <element signature="e#89874#92883#2" expanded="true" />
+                <element signature="e#92977#95141#2" expanded="true" />
+                <element signature="e#95237#96048#2" expanded="true" />
+                <element signature="e#96142#97170#2" expanded="true" />
+                <element signature="e#97264#98407#2" expanded="true" />
+                <element signature="e#98509#99387#2" expanded="true" />
+                <element signature="e#99481#100431#2" expanded="true" />
+                <element signature="e#100525#101257#2" expanded="true" />
+                <element signature="e#101353#102062#2" expanded="true" />
+                <element signature="e#102168#102880#2" expanded="true" />
+                <element signature="e#102976#104353#2" expanded="true" />
+                <element signature="e#104447#105480#2" expanded="true" />
+                <element signature="e#105576#106988#2" expanded="true" />
+                <element signature="e#107088#108075#2" expanded="true" />
+                <element signature="e#108175#109495#2" expanded="true" />
+                <element signature="e#109617#110657#2" expanded="true" />
+                <element signature="e#110751#111770#2" expanded="true" />
+                <element signature="e#111864#112636#2" expanded="true" />
+                <element signature="e#112728#113770#2" expanded="true" />
+                <element signature="e#113864#115376#2" expanded="true" />
+                <element signature="e#115472#116304#2" expanded="true" />
+                <element signature="e#176613#176702#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.mobile.structure-1.4.3.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/css/themes/default/jquery.mobile.structure-1.4.3.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3706">
+              <caret line="218" column="29" lean-forward="false" selection-start-line="218" selection-start-column="29" selection-end-line="218" selection-end-column="29" />
+              <folding>
+                <element signature="e#47033#47122#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.mobile.theme-1.4.3.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/css/themes/default/jquery.mobile.theme-1.4.3.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2516">
+              <caret line="148" column="4" lean-forward="false" selection-start-line="148" selection-start-column="4" selection-end-line="148" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="jquery.mobile-1.4.3.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/css/themes/default/jquery.mobile-1.4.3.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3247">
+              <caret line="191" column="8" lean-forward="false" selection-start-line="191" selection-start-column="8" selection-end-line="191" selection-end-column="8" />
+              <folding>
+                <element signature="e#184#993#2" expanded="true" />
+                <element signature="e#1042#2000#2" expanded="true" />
+                <element signature="e#2053#3078#2" expanded="true" />
+                <element signature="e#3131#4156#2" expanded="true" />
+                <element signature="e#4207#5220#2" expanded="true" />
+                <element signature="e#5271#6285#2" expanded="true" />
+                <element signature="e#6336#7349#2" expanded="true" />
+                <element signature="e#7402#8427#2" expanded="true" />
+                <element signature="e#8480#9505#2" expanded="true" />
+                <element signature="e#9556#10570#2" expanded="true" />
+                <element signature="e#10619#12047#2" expanded="true" />
+                <element signature="e#12095#12902#2" expanded="true" />
+                <element signature="e#12950#14006#2" expanded="true" />
+                <element signature="e#14057#15410#2" expanded="true" />
+                <element signature="e#15462#16790#2" expanded="true" />
+                <element signature="e#16840#18012#2" expanded="true" />
+                <element signature="e#18063#18867#2" expanded="true" />
+                <element signature="e#18918#19723#2" expanded="true" />
+                <element signature="e#19774#20578#2" expanded="true" />
+                <element signature="e#20629#21434#2" expanded="true" />
+                <element signature="e#21533#22336#2" expanded="true" />
+                <element signature="e#22385#23639#2" expanded="true" />
+                <element signature="e#23688#24735#2" expanded="true" />
+                <element signature="e#24786#25876#2" expanded="true" />
+                <element signature="e#25926#26987#2" expanded="true" />
+                <element signature="e#27035#28052#2" expanded="true" />
+                <element signature="e#28099#29099#2" expanded="true" />
+                <element signature="e#29152#30710#2" expanded="true" />
+                <element signature="e#30761#31563#2" expanded="true" />
+                <element signature="e#31611#34642#2" expanded="true" />
+                <element signature="e#34690#36876#2" expanded="true" />
+                <element signature="e#36925#37769#2" expanded="true" />
+                <element signature="e#37817#38867#2" expanded="true" />
+                <element signature="e#38915#40080#2" expanded="true" />
+                <element signature="e#40132#41046#2" expanded="true" />
+                <element signature="e#41094#42083#2" expanded="true" />
+                <element signature="e#42131#42899#2" expanded="true" />
+                <element signature="e#42948#43693#2" expanded="true" />
+                <element signature="e#43747#44495#2" expanded="true" />
+                <element signature="e#44544#45972#2" expanded="true" />
+                <element signature="e#46020#47075#2" expanded="true" />
+                <element signature="e#47124#48572#2" expanded="true" />
+                <element signature="e#48623#49649#2" expanded="true" />
+                <element signature="e#49700#51042#2" expanded="true" />
+                <element signature="e#51092#52168#2" expanded="true" />
+                <element signature="e#52216#53271#2" expanded="true" />
+                <element signature="e#53319#54127#2" expanded="true" />
+                <element signature="e#54174#55238#2" expanded="true" />
+                <element signature="e#55286#56820#2" expanded="true" />
+                <element signature="e#56869#57740#2" expanded="true" />
+                <element signature="e#57838#58611#2" expanded="true" />
+                <element signature="e#58707#59629#2" expanded="true" />
+                <element signature="e#59729#60720#2" expanded="true" />
+                <element signature="e#60824#61827#2" expanded="true" />
+                <element signature="e#61931#62934#2" expanded="true" />
+                <element signature="e#63034#64026#2" expanded="true" />
+                <element signature="e#64126#65117#2" expanded="true" />
+                <element signature="e#65217#66209#2" expanded="true" />
+                <element signature="e#66313#67316#2" expanded="true" />
+                <element signature="e#67420#68423#2" expanded="true" />
+                <element signature="e#68519#69925#2" expanded="true" />
+                <element signature="e#70019#70790#2" expanded="true" />
+                <element signature="e#70884#71904#2" expanded="true" />
+                <element signature="e#72004#73318#2" expanded="true" />
+                <element signature="e#73420#74726#2" expanded="true" />
+                <element signature="e#74824#75957#2" expanded="true" />
+                <element signature="e#76057#76825#2" expanded="true" />
+                <element signature="e#76925#77694#2" expanded="true" />
+                <element signature="e#77794#78562#2" expanded="true" />
+                <element signature="e#78662#79431#2" expanded="true" />
+                <element signature="e#79622#80389#2" expanded="true" />
+                <element signature="e#80485#81717#2" expanded="true" />
+                <element signature="e#81813#82824#2" expanded="true" />
+                <element signature="e#82924#83992#2" expanded="true" />
+                <element signature="e#84090#85129#2" expanded="true" />
+                <element signature="e#85223#86218#2" expanded="true" />
+                <element signature="e#86310#87274#2" expanded="true" />
+                <element signature="e#87378#88914#2" expanded="true" />
+                <element signature="e#89014#89780#2" expanded="true" />
+                <element signature="e#89874#92883#2" expanded="true" />
+                <element signature="e#92977#95141#2" expanded="true" />
+                <element signature="e#95237#96048#2" expanded="true" />
+                <element signature="e#96142#97170#2" expanded="true" />
+                <element signature="e#97264#98407#2" expanded="true" />
+                <element signature="e#98509#99387#2" expanded="true" />
+                <element signature="e#99481#100431#2" expanded="true" />
+                <element signature="e#100525#101257#2" expanded="true" />
+                <element signature="e#101353#102062#2" expanded="true" />
+                <element signature="e#102168#102880#2" expanded="true" />
+                <element signature="e#102976#104353#2" expanded="true" />
+                <element signature="e#104447#105480#2" expanded="true" />
+                <element signature="e#105576#106988#2" expanded="true" />
+                <element signature="e#107088#108075#2" expanded="true" />
+                <element signature="e#108175#109495#2" expanded="true" />
+                <element signature="e#109617#110657#2" expanded="true" />
+                <element signature="e#110751#111770#2" expanded="true" />
+                <element signature="e#111864#112636#2" expanded="true" />
+                <element signature="e#112728#113770#2" expanded="true" />
+                <element signature="e#113864#115376#2" expanded="true" />
+                <element signature="e#115472#116304#2" expanded="true" />
+                <element signature="e#189466#189555#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mysensors</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -182,12 +478,43 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/html/css/jquery-ui/jquery-ui.min.css" />
-        <option value="$PROJECT_DIR$/html/index.html" />
         <option value="$PROJECT_DIR$/html/pages/config/smsinterface/smsinterface.html" />
-        <option value="$PROJECT_DIR$/html/js/Ha.WebApp.js" />
         <option value="$PROJECT_DIR$/html/pages/config/drivers/drivers.html" />
         <option value="$PROJECT_DIR$/html/pages/config/drivers/mysensors.html" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/html/js/eventsource.min.js" />
+        <option value="$PROJECT_DIR$/html/js/jquery.min.js" />
+        <option value="$PROJECT_DIR$/html/js/jquery.mobile-1.4.3.min.js" />
+        <option value="$PROJECT_DIR$/html/js/jquery-ui.min.js" />
+        <option value="$PROJECT_DIR$/html/pages/config/drivers/virtual.html" />
+        <option value="$PROJECT_DIR$/html/js/knob/jquery.knob.min.js" />
+        <option value="$PROJECT_DIR$/html/js/flot/excanvas.min.js" />
+        <option value="$PROJECT_DIR$/html/js/flot/jquery.flot.time.min.js" />
+        <option value="$PROJECT_DIR$/html/js/flot/jquery.flot.threshold.min.js" />
+        <option value="$PROJECT_DIR$/html/js/flot/jquery.flot.symbol.min.js" />
+        <option value="$PROJECT_DIR$/html/js/flot/jquery.flot.stack.min.js" />
+        <option value="$PROJECT_DIR$/html/js/flot/jquery.flot.selection.min.js" />
+        <option value="$PROJECT_DIR$/html/js/flot/jquery.flot.resize.min.js" />
+        <option value="$PROJECT_DIR$/html/js/flot/jquery.flot.pie.min.js" />
+        <option value="$PROJECT_DIR$/html/js/flot/jquery.flot.navigate.min.js" />
+        <option value="$PROJECT_DIR$/html/js/flot/jquery.flot.min.js" />
+        <option value="$PROJECT_DIR$/html/js/flot/jquery.flot.image.min.js" />
+        <option value="$PROJECT_DIR$/html/js/flot/jquery.flot.fillbetween.min.js" />
+        <option value="$PROJECT_DIR$/html/js/flot/jquery.flot.errorbars.min.js" />
+        <option value="$PROJECT_DIR$/html/js/flot/jquery.flot.crosshair.min.js" />
+        <option value="$PROJECT_DIR$/html/js/flot/jquery.flot.categories.min.js" />
+        <option value="$PROJECT_DIR$/html/js/flot/jquery.flot.canvas.min.js" />
+        <option value="$PROJECT_DIR$/html/js/flot/jquery.colorhelpers.min.js" />
+        <option value="$PROJECT_DIR$/html/js/codemirror-4.5/codemirror-compressed.js" />
+        <option value="$PROJECT_DIR$/html/js/Ha.WebApp.js" />
+        <option value="$PROJECT_DIR$/html/index.html" />
+        <option value="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.external-png-1.4.3.min.css" />
+        <option value="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.icons-1.4.3.min.css" />
+        <option value="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.inline-png-1.4.3.min.css" />
+        <option value="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.inline-svg-1.4.3.min.css" />
+        <option value="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.structure-1.4.3.min.css" />
+        <option value="$PROJECT_DIR$/html/css/themes/default/jquery.mobile.theme-1.4.3.min.css" />
+        <option value="$PROJECT_DIR$/html/css/themes/default/jquery.mobile-1.4.3.min.css" />
       </list>
     </option>
   </component>
@@ -219,6 +546,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -259,10 +587,881 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="control" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webinterface" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="smsinterface" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="groupmodules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="general" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drivers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="automation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="knob" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js.cookie" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery.flot.time.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery.flot.threshold.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery.flot.symbol.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery.flot.stack.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery.flot.selection.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery.flot.resize.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery.flot.pie.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery.flot.navigate.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery.flot.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery.flot.image.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery.flot.fillbetween.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery.flot.errorbars.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery.flot.crosshair.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery.flot.categories.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery.flot.canvas.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery.colorhelpers.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="excanvas.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codemirror-4.5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EasyIoT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="codemirror-4.5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,6 +1469,68 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="js.eslint.eslintPackage" value="" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -283,7 +1544,8 @@
       <updated>1486203755795</updated>
       <workItem from="1486203758186" duration="66000" />
       <workItem from="1486204937136" duration="1121000" />
-      <workItem from="1486206160168" duration="517000" />
+      <workItem from="1486206160168" duration="2678000" />
+      <workItem from="1486208897029" duration="91000" />
     </task>
     <task id="LOCAL-00001" summary="Init Project">
       <created>1486206578928</created>
@@ -299,11 +1561,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486206663313</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Workspace">
+      <created>1486206717889</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1486206717889</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1704000" />
+    <option name="totallyTimeSpent" value="3956000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -318,22 +1587,23 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12012645" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20021075" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.50263506" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.49736497" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +1634,9 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="Init Project" />
     <MESSAGE value="Workspace" />
-    <option name="LAST_COMMIT_MESSAGE" value="Workspace" />
+    <MESSAGE value="cleanup" />
+    <MESSAGE value="clean code" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean code" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -374,222 +1646,724 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/html/css/easyiot.css">
+    <entry file="file://$PROJECT_DIR$/html/pages/config/automation/automationgroups.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="77" column="21" lean-forward="false" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="323">
+          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/config/automation/automationlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/config/automation/automationprogram.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="88" lean-forward="false" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/config/automation/automationprogramparam.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="81" lean-forward="false" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/virtual.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="35" column="51" lean-forward="false" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/rpigpio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/jquery.mobile-1.4.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="122" column="33" lean-forward="false" selection-start-line="122" selection-start-column="33" selection-end-line="122" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/knob/jquery.knob.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="188" column="18" lean-forward="false" selection-start-line="188" selection-start-column="18" selection-end-line="188" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/flot/jquery.flot.time.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/flot/jquery.flot.threshold.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/flot/jquery.flot.stack.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/flot/date.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/flot/excanvas.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="151" column="32" lean-forward="false" selection-start-line="151" selection-start-column="32" selection-end-line="151" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/flot/excanvas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/flot/jquery.flot.time.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="63" lean-forward="false" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/flot/jquery.flot.threshold.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/flot/jquery.flot.symbol.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/flot/jquery.flot.stack.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/flot/jquery.flot.selection.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="62" lean-forward="false" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/flot/jquery.flot.resize.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/flot/jquery.flot.pie.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="113" column="42" lean-forward="false" selection-start-line="113" selection-start-column="42" selection-end-line="113" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/flot/jquery.flot.navigate.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/flot/jquery.flot.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="61" column="82" lean-forward="false" selection-start-line="61" selection-start-column="82" selection-end-line="61" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/flot/jquery.flot.image.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/flot/jquery.flot.fillbetween.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/flot/jquery.flot.errorbars.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" column="21" lean-forward="false" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/flot/jquery.flot.crosshair.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/flot/jquery.flot.categories.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="45" lean-forward="false" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/flot/jquery.flot.canvas.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/flot/jquery.colorhelpers.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/js.cookie/js.cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/codemirror-4.5/tokenizecsharp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="60" lean-forward="true" selection-start-line="20" selection-start-column="60" selection-end-line="20" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/js/codemirror-4.5/codemirror-compressed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="45" column="103" lean-forward="false" selection-start-line="45" selection-start-column="103" selection-end-line="45" selection-end-column="103" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/pages/config/config.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="187">
+          <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/drivers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/mqtt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/mysensors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="5" column="54" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/js/Ha.WebApp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14943">
-          <caret line="879" column="0" lean-forward="false" selection-start-line="879" selection-start-column="0" selection-end-line="879" selection-end-column="0" />
+        <state relative-caret-position="282">
+          <caret line="1169" column="2" lean-forward="false" selection-start-line="1169" selection-start-column="2" selection-end-line="1169" selection-end-column="2" />
           <folding>
-            <marker date="1486205306065" expanded="true" signature="7932:7943" ph=" " />
-            <marker date="1486205306065" expanded="true" signature="27192:27227" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="27385:27394" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="27446:27457" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="27538:27591" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="27658:27698" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="27860:27902" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="28292:28327" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="28489:28498" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="28550:28561" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="28642:28695" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="28762:28802" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="28948:28990" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="29283:29294" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="29467:29478" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="29717:29771" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="29830:29839" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="29946:29970" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="30652:30687" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="30841:30850" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="30902:30913" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="30994:31047" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="31114:31154" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="31300:31342" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="31635:31646" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="31819:31830" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="31921:31975" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="32050:32059" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="32192:32201" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="32303:32327" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="32677:32701" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="33051:33075" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="40504:40515" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="62697:62744" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="62812:62842" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="63039:63053" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="63209:63256" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="63331:63360" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="63571:63585" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="63741:63788" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="63857:63886" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="64069:64083" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="64251:64298" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="64366:64395" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="64576:64590" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="64758:64805" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="64878:64907" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="65109:65123" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="71392:71401" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="85894:85920" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="98103:98112" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="99079:99088" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="100651:100698" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="100758:100787" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="100923:100937" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="101294:101341" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="101398:101427" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="101567:101581" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="101711:101758" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="101813:101842" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="103038:103085" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="103142:103171" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="103305:103319" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="103449:103496" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="103551:103580" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="125112:125137" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="125607:125620" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="125675:125703" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="125789:125816" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="8072:8083" ph=" " />
+            <marker date="1486208513265" expanded="true" signature="27332:27367" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="27525:27534" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="27586:27597" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="27678:27731" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="27798:27838" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="28000:28042" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="28432:28467" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="28629:28638" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="28690:28701" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="28782:28835" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="28902:28942" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="29088:29130" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="29423:29434" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="29607:29618" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="29857:29911" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="29970:29979" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="30086:30110" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="30792:30827" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="30981:30990" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="31042:31053" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="31134:31187" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="31254:31294" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="31440:31482" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="31775:31786" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="31959:31970" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="32061:32115" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="32190:32199" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="32332:32341" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="32443:32467" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="32817:32841" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="33191:33215" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="40643:40654" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="54148:54195" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="54263:54293" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="54490:54504" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="54660:54707" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="54782:54811" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="55022:55036" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="55192:55239" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="55308:55337" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="55520:55534" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="55702:55749" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="55817:55846" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="56027:56041" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="56209:56256" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="56329:56358" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="56560:56574" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="76323:76349" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="88423:88432" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="89994:90019" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="90489:90502" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="90557:90585" ph="..." />
+            <marker date="1486208513265" expanded="true" signature="90671:90698" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/esp8266.html">
+    <entry file="file://$PROJECT_DIR$/html/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="816">
+          <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_diagonals-thick_20_666666_40x40.png">
+    <entry file="file://$PROJECT_DIR$/html/css/themes/default/images/icons-png/action-black.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_diagonals-thick_18_b81900_40x40.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/html/css/themes/default/images/icons-svg/action-white.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_flat_10_000000_40x100.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/html/css/themes/default/jquery.mobile.external-png-1.4.3.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="90" column="17" lean-forward="false" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/html/css/themes/default/jquery.mobile.icons-1.4.3.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="166" column="22" lean-forward="false" selection-start-line="166" selection-start-column="22" selection-end-line="166" selection-end-column="22" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_glass_100_f6f6f6_1x400.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/html/css/themes/default/jquery.mobile.inline-png-1.4.3.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3043">
+          <caret line="179" column="478" lean-forward="false" selection-start-line="179" selection-start-column="478" selection-end-line="179" selection-end-column="478" />
+          <folding>
+            <element signature="e#184#517#2" expanded="true" />
+            <element signature="e#566#919#2" expanded="true" />
+            <element signature="e#972#1233#2" expanded="true" />
+            <element signature="e#1286#1543#2" expanded="true" />
+            <element signature="e#1594#1823#2" expanded="true" />
+            <element signature="e#1874#2111#2" expanded="true" />
+            <element signature="e#2162#2395#2" expanded="true" />
+            <element signature="e#2448#2705#2" expanded="true" />
+            <element signature="e#2758#3007#2" expanded="true" />
+            <element signature="e#3058#3291#2" expanded="true" />
+            <element signature="e#3340#3789#2" expanded="true" />
+            <element signature="e#3837#4186#2" expanded="true" />
+            <element signature="e#4234#4443#2" expanded="true" />
+            <element signature="e#4494#4727#2" expanded="true" />
+            <element signature="e#4779#5000#2" expanded="true" />
+            <element signature="e#5050#5415#2" expanded="true" />
+            <element signature="e#5466#5779#2" expanded="true" />
+            <element signature="e#5830#6095#2" expanded="true" />
+            <element signature="e#6146#6435#2" expanded="true" />
+            <element signature="e#6486#6787#2" expanded="true" />
+            <element signature="e#6886#7147#2" expanded="true" />
+            <element signature="e#7196#7649#2" expanded="true" />
+            <element signature="e#7698#8007#2" expanded="true" />
+            <element signature="e#8058#8303#2" expanded="true" />
+            <element signature="e#8353#8630#2" expanded="true" />
+            <element signature="e#8678#8935#2" expanded="true" />
+            <element signature="e#8982#9351#2" expanded="true" />
+            <element signature="e#9404#9845#2" expanded="true" />
+            <element signature="e#9896#10249#2" expanded="true" />
+            <element signature="e#10297#10730#2" expanded="true" />
+            <element signature="e#10778#11031#2" expanded="true" />
+            <element signature="e#11080#11437#2" expanded="true" />
+            <element signature="e#11485#11722#2" expanded="true" />
+            <element signature="e#11770#12135#2" expanded="true" />
+            <element signature="e#12187#12548#2" expanded="true" />
+            <element signature="e#12596#12901#2" expanded="true" />
+            <element signature="e#12949#13282#2" expanded="true" />
+            <element signature="e#13331#13516#2" expanded="true" />
+            <element signature="e#13570#13923#2" expanded="true" />
+            <element signature="e#13972#14369#2" expanded="true" />
+            <element signature="e#14417#14614#2" expanded="true" />
+            <element signature="e#14663#15096#2" expanded="true" />
+            <element signature="e#15147#15516#2" expanded="true" />
+            <element signature="e#15567#16000#2" expanded="true" />
+            <element signature="e#16050#16507#2" expanded="true" />
+            <element signature="e#16555#16816#2" expanded="true" />
+            <element signature="e#16864#17213#2" expanded="true" />
+            <element signature="e#17260#17501#2" expanded="true" />
+            <element signature="e#17549#17906#2" expanded="true" />
+            <element signature="e#17955#18212#2" expanded="true" />
+            <element signature="e#18310#18631#2" expanded="true" />
+            <element signature="e#18727#19084#2" expanded="true" />
+            <element signature="e#19184#19409#2" expanded="true" />
+            <element signature="e#19513#19766#2" expanded="true" />
+            <element signature="e#19870#20111#2" expanded="true" />
+            <element signature="e#20211#20440#2" expanded="true" />
+            <element signature="e#20540#20765#2" expanded="true" />
+            <element signature="e#20865#21090#2" expanded="true" />
+            <element signature="e#21194#21443#2" expanded="true" />
+            <element signature="e#21547#21796#2" expanded="true" />
+            <element signature="e#21892#22333#2" expanded="true" />
+            <element signature="e#22427#22768#2" expanded="true" />
+            <element signature="e#22862#23067#2" expanded="true" />
+            <element signature="e#23167#23392#2" expanded="true" />
+            <element signature="e#23494#23719#2" expanded="true" />
+            <element signature="e#23817#24182#2" expanded="true" />
+            <element signature="e#24282#24587#2" expanded="true" />
+            <element signature="e#24687#24948#2" expanded="true" />
+            <element signature="e#25048#25325#2" expanded="true" />
+            <element signature="e#25425#25718#2" expanded="true" />
+            <element signature="e#25909#26166#2" expanded="true" />
+            <element signature="e#26262#26707#2" expanded="true" />
+            <element signature="e#26803#27116#2" expanded="true" />
+            <element signature="e#27216#27465#2" expanded="true" />
+            <element signature="e#27563#27820#2" expanded="true" />
+            <element signature="e#27914#28163#2" expanded="true" />
+            <element signature="e#28255#28616#2" expanded="true" />
+            <element signature="e#28720#29149#2" expanded="true" />
+            <element signature="e#29249#29590#2" expanded="true" />
+            <element signature="e#29684#30137#2" expanded="true" />
+            <element signature="e#30231#30476#2" expanded="true" />
+            <element signature="e#30572#30925#2" expanded="true" />
+            <element signature="e#31019#31248#2" expanded="true" />
+            <element signature="e#31342#31707#2" expanded="true" />
+            <element signature="e#31809#32166#2" expanded="true" />
+            <element signature="e#32260#32561#2" expanded="true" />
+            <element signature="e#32655#32988#2" expanded="true" />
+            <element signature="e#33084#33269#2" expanded="true" />
+            <element signature="e#33375#33728#2" expanded="true" />
+            <element signature="e#33824#34213#2" expanded="true" />
+            <element signature="e#34307#34500#2" expanded="true" />
+            <element signature="e#34596#35017#2" expanded="true" />
+            <element signature="e#35117#35470#2" expanded="true" />
+            <element signature="e#35570#35995#2" expanded="true" />
+            <element signature="e#36117#36578#2" expanded="true" />
+            <element signature="e#36672#36933#2" expanded="true" />
+            <element signature="e#37027#37364#2" expanded="true" />
+            <element signature="e#37456#37697#2" expanded="true" />
+            <element signature="e#37791#38148#2" expanded="true" />
+            <element signature="e#38244#38501#2" expanded="true" />
+            <element signature="e#98810#98899#2" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_glass_100_fdf5ce_1x400.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/html/css/themes/default/jquery.mobile.inline-svg-1.4.3.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3434">
+          <caret line="202" column="71" lean-forward="false" selection-start-line="202" selection-start-column="71" selection-end-line="202" selection-end-column="71" />
+          <folding>
+            <element signature="e#184#993#2" expanded="true" />
+            <element signature="e#1042#2000#2" expanded="true" />
+            <element signature="e#2053#3078#2" expanded="true" />
+            <element signature="e#3131#4156#2" expanded="true" />
+            <element signature="e#4207#5220#2" expanded="true" />
+            <element signature="e#5271#6285#2" expanded="true" />
+            <element signature="e#6336#7349#2" expanded="true" />
+            <element signature="e#7402#8427#2" expanded="true" />
+            <element signature="e#8480#9505#2" expanded="true" />
+            <element signature="e#9556#10570#2" expanded="true" />
+            <element signature="e#10619#12047#2" expanded="true" />
+            <element signature="e#12095#12902#2" expanded="true" />
+            <element signature="e#12950#14006#2" expanded="true" />
+            <element signature="e#14057#15410#2" expanded="true" />
+            <element signature="e#15462#16790#2" expanded="true" />
+            <element signature="e#16840#18012#2" expanded="true" />
+            <element signature="e#18063#18867#2" expanded="true" />
+            <element signature="e#18918#19723#2" expanded="true" />
+            <element signature="e#19774#20578#2" expanded="true" />
+            <element signature="e#20629#21434#2" expanded="true" />
+            <element signature="e#21533#22336#2" expanded="true" />
+            <element signature="e#22385#23639#2" expanded="true" />
+            <element signature="e#23688#24735#2" expanded="true" />
+            <element signature="e#24786#25876#2" expanded="true" />
+            <element signature="e#25926#26987#2" expanded="true" />
+            <element signature="e#27035#28052#2" expanded="true" />
+            <element signature="e#28099#29099#2" expanded="true" />
+            <element signature="e#29152#30710#2" expanded="true" />
+            <element signature="e#30761#31563#2" expanded="true" />
+            <element signature="e#31611#34642#2" expanded="true" />
+            <element signature="e#34690#36876#2" expanded="true" />
+            <element signature="e#36925#37769#2" expanded="true" />
+            <element signature="e#37817#38867#2" expanded="true" />
+            <element signature="e#38915#40080#2" expanded="true" />
+            <element signature="e#40132#41046#2" expanded="true" />
+            <element signature="e#41094#42083#2" expanded="true" />
+            <element signature="e#42131#42899#2" expanded="true" />
+            <element signature="e#42948#43693#2" expanded="true" />
+            <element signature="e#43747#44495#2" expanded="true" />
+            <element signature="e#44544#45972#2" expanded="true" />
+            <element signature="e#46020#47075#2" expanded="true" />
+            <element signature="e#47124#48572#2" expanded="true" />
+            <element signature="e#48623#49649#2" expanded="true" />
+            <element signature="e#49700#51042#2" expanded="true" />
+            <element signature="e#51092#52168#2" expanded="true" />
+            <element signature="e#52216#53271#2" expanded="true" />
+            <element signature="e#53319#54127#2" expanded="true" />
+            <element signature="e#54174#55238#2" expanded="true" />
+            <element signature="e#55286#56820#2" expanded="true" />
+            <element signature="e#56869#57740#2" expanded="true" />
+            <element signature="e#57838#58611#2" expanded="true" />
+            <element signature="e#58707#59629#2" expanded="true" />
+            <element signature="e#59729#60720#2" expanded="true" />
+            <element signature="e#60824#61827#2" expanded="true" />
+            <element signature="e#61931#62934#2" expanded="true" />
+            <element signature="e#63034#64026#2" expanded="true" />
+            <element signature="e#64126#65117#2" expanded="true" />
+            <element signature="e#65217#66209#2" expanded="true" />
+            <element signature="e#66313#67316#2" expanded="true" />
+            <element signature="e#67420#68423#2" expanded="true" />
+            <element signature="e#68519#69925#2" expanded="true" />
+            <element signature="e#70019#70790#2" expanded="true" />
+            <element signature="e#70884#71904#2" expanded="true" />
+            <element signature="e#72004#73318#2" expanded="true" />
+            <element signature="e#73420#74726#2" expanded="true" />
+            <element signature="e#74824#75957#2" expanded="true" />
+            <element signature="e#76057#76825#2" expanded="true" />
+            <element signature="e#76925#77694#2" expanded="true" />
+            <element signature="e#77794#78562#2" expanded="true" />
+            <element signature="e#78662#79431#2" expanded="true" />
+            <element signature="e#79622#80389#2" expanded="true" />
+            <element signature="e#80485#81717#2" expanded="true" />
+            <element signature="e#81813#82824#2" expanded="true" />
+            <element signature="e#82924#83992#2" expanded="true" />
+            <element signature="e#84090#85129#2" expanded="true" />
+            <element signature="e#85223#86218#2" expanded="true" />
+            <element signature="e#86310#87274#2" expanded="true" />
+            <element signature="e#87378#88914#2" expanded="true" />
+            <element signature="e#89014#89780#2" expanded="true" />
+            <element signature="e#89874#92883#2" expanded="true" />
+            <element signature="e#92977#95141#2" expanded="true" />
+            <element signature="e#95237#96048#2" expanded="true" />
+            <element signature="e#96142#97170#2" expanded="true" />
+            <element signature="e#97264#98407#2" expanded="true" />
+            <element signature="e#98509#99387#2" expanded="true" />
+            <element signature="e#99481#100431#2" expanded="true" />
+            <element signature="e#100525#101257#2" expanded="true" />
+            <element signature="e#101353#102062#2" expanded="true" />
+            <element signature="e#102168#102880#2" expanded="true" />
+            <element signature="e#102976#104353#2" expanded="true" />
+            <element signature="e#104447#105480#2" expanded="true" />
+            <element signature="e#105576#106988#2" expanded="true" />
+            <element signature="e#107088#108075#2" expanded="true" />
+            <element signature="e#108175#109495#2" expanded="true" />
+            <element signature="e#109617#110657#2" expanded="true" />
+            <element signature="e#110751#111770#2" expanded="true" />
+            <element signature="e#111864#112636#2" expanded="true" />
+            <element signature="e#112728#113770#2" expanded="true" />
+            <element signature="e#113864#115376#2" expanded="true" />
+            <element signature="e#115472#116304#2" expanded="true" />
+            <element signature="e#176613#176702#2" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_gloss-wave_35_f6a828_500x100.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/html/css/themes/default/jquery.mobile.structure-1.4.3.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3706">
+          <caret line="218" column="29" lean-forward="false" selection-start-line="218" selection-start-column="29" selection-end-line="218" selection-end-column="29" />
+          <folding>
+            <element signature="e#47033#47122#2" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_highlight-soft_75_ffe45c_1x100.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/html/css/themes/default/jquery.mobile.theme-1.4.3.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2516">
+          <caret line="148" column="4" lean-forward="false" selection-start-line="148" selection-start-column="4" selection-end-line="148" selection-end-column="4" />
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-bg_highlight-soft_100_eeeeee_1x100.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/html/css/themes/default/jquery.mobile-1.4.3.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3247">
+          <caret line="191" column="8" lean-forward="false" selection-start-line="191" selection-start-column="8" selection-end-line="191" selection-end-column="8" />
+          <folding>
+            <element signature="e#184#993#2" expanded="true" />
+            <element signature="e#1042#2000#2" expanded="true" />
+            <element signature="e#2053#3078#2" expanded="true" />
+            <element signature="e#3131#4156#2" expanded="true" />
+            <element signature="e#4207#5220#2" expanded="true" />
+            <element signature="e#5271#6285#2" expanded="true" />
+            <element signature="e#6336#7349#2" expanded="true" />
+            <element signature="e#7402#8427#2" expanded="true" />
+            <element signature="e#8480#9505#2" expanded="true" />
+            <element signature="e#9556#10570#2" expanded="true" />
+            <element signature="e#10619#12047#2" expanded="true" />
+            <element signature="e#12095#12902#2" expanded="true" />
+            <element signature="e#12950#14006#2" expanded="true" />
+            <element signature="e#14057#15410#2" expanded="true" />
+            <element signature="e#15462#16790#2" expanded="true" />
+            <element signature="e#16840#18012#2" expanded="true" />
+            <element signature="e#18063#18867#2" expanded="true" />
+            <element signature="e#18918#19723#2" expanded="true" />
+            <element signature="e#19774#20578#2" expanded="true" />
+            <element signature="e#20629#21434#2" expanded="true" />
+            <element signature="e#21533#22336#2" expanded="true" />
+            <element signature="e#22385#23639#2" expanded="true" />
+            <element signature="e#23688#24735#2" expanded="true" />
+            <element signature="e#24786#25876#2" expanded="true" />
+            <element signature="e#25926#26987#2" expanded="true" />
+            <element signature="e#27035#28052#2" expanded="true" />
+            <element signature="e#28099#29099#2" expanded="true" />
+            <element signature="e#29152#30710#2" expanded="true" />
+            <element signature="e#30761#31563#2" expanded="true" />
+            <element signature="e#31611#34642#2" expanded="true" />
+            <element signature="e#34690#36876#2" expanded="true" />
+            <element signature="e#36925#37769#2" expanded="true" />
+            <element signature="e#37817#38867#2" expanded="true" />
+            <element signature="e#38915#40080#2" expanded="true" />
+            <element signature="e#40132#41046#2" expanded="true" />
+            <element signature="e#41094#42083#2" expanded="true" />
+            <element signature="e#42131#42899#2" expanded="true" />
+            <element signature="e#42948#43693#2" expanded="true" />
+            <element signature="e#43747#44495#2" expanded="true" />
+            <element signature="e#44544#45972#2" expanded="true" />
+            <element signature="e#46020#47075#2" expanded="true" />
+            <element signature="e#47124#48572#2" expanded="true" />
+            <element signature="e#48623#49649#2" expanded="true" />
+            <element signature="e#49700#51042#2" expanded="true" />
+            <element signature="e#51092#52168#2" expanded="true" />
+            <element signature="e#52216#53271#2" expanded="true" />
+            <element signature="e#53319#54127#2" expanded="true" />
+            <element signature="e#54174#55238#2" expanded="true" />
+            <element signature="e#55286#56820#2" expanded="true" />
+            <element signature="e#56869#57740#2" expanded="true" />
+            <element signature="e#57838#58611#2" expanded="true" />
+            <element signature="e#58707#59629#2" expanded="true" />
+            <element signature="e#59729#60720#2" expanded="true" />
+            <element signature="e#60824#61827#2" expanded="true" />
+            <element signature="e#61931#62934#2" expanded="true" />
+            <element signature="e#63034#64026#2" expanded="true" />
+            <element signature="e#64126#65117#2" expanded="true" />
+            <element signature="e#65217#66209#2" expanded="true" />
+            <element signature="e#66313#67316#2" expanded="true" />
+            <element signature="e#67420#68423#2" expanded="true" />
+            <element signature="e#68519#69925#2" expanded="true" />
+            <element signature="e#70019#70790#2" expanded="true" />
+            <element signature="e#70884#71904#2" expanded="true" />
+            <element signature="e#72004#73318#2" expanded="true" />
+            <element signature="e#73420#74726#2" expanded="true" />
+            <element signature="e#74824#75957#2" expanded="true" />
+            <element signature="e#76057#76825#2" expanded="true" />
+            <element signature="e#76925#77694#2" expanded="true" />
+            <element signature="e#77794#78562#2" expanded="true" />
+            <element signature="e#78662#79431#2" expanded="true" />
+            <element signature="e#79622#80389#2" expanded="true" />
+            <element signature="e#80485#81717#2" expanded="true" />
+            <element signature="e#81813#82824#2" expanded="true" />
+            <element signature="e#82924#83992#2" expanded="true" />
+            <element signature="e#84090#85129#2" expanded="true" />
+            <element signature="e#85223#86218#2" expanded="true" />
+            <element signature="e#86310#87274#2" expanded="true" />
+            <element signature="e#87378#88914#2" expanded="true" />
+            <element signature="e#89014#89780#2" expanded="true" />
+            <element signature="e#89874#92883#2" expanded="true" />
+            <element signature="e#92977#95141#2" expanded="true" />
+            <element signature="e#95237#96048#2" expanded="true" />
+            <element signature="e#96142#97170#2" expanded="true" />
+            <element signature="e#97264#98407#2" expanded="true" />
+            <element signature="e#98509#99387#2" expanded="true" />
+            <element signature="e#99481#100431#2" expanded="true" />
+            <element signature="e#100525#101257#2" expanded="true" />
+            <element signature="e#101353#102062#2" expanded="true" />
+            <element signature="e#102168#102880#2" expanded="true" />
+            <element signature="e#102976#104353#2" expanded="true" />
+            <element signature="e#104447#105480#2" expanded="true" />
+            <element signature="e#105576#106988#2" expanded="true" />
+            <element signature="e#107088#108075#2" expanded="true" />
+            <element signature="e#108175#109495#2" expanded="true" />
+            <element signature="e#109617#110657#2" expanded="true" />
+            <element signature="e#110751#111770#2" expanded="true" />
+            <element signature="e#111864#112636#2" expanded="true" />
+            <element signature="e#112728#113770#2" expanded="true" />
+            <element signature="e#113864#115376#2" expanded="true" />
+            <element signature="e#115472#116304#2" expanded="true" />
+            <element signature="e#189466#189555#2" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-icons_228ef1_256x240.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-icons_222222_256x240.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-icons_ffffff_256x240.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/images/ui-icons_ffd27a_256x240.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/html/css/easyiot.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1088">
+          <caret line="64" column="20" lean-forward="false" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/css/jquery-ui/jquery-ui.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/css/codemirror-4.5/codemirror.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="25" column="67" lean-forward="true" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/pages/config/smsinterface/smsinterface.html">
+    <entry file="file://$PROJECT_DIR$/html/css/codemirror-4.5/csharpcolors.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -597,206 +2371,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/images/custom/gas.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/images/custom/radiator.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/images/custom/radiator1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/images/widgets/ai.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/images/widgets/ao.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/images/widgets/battery_level_0.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/pages/control/control.html">
+    <entry file="file://$PROJECT_DIR$/html/css/codemirror-4.5/docs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/pages/control/chart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/pages/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/easyiot.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="76" column="21" lean-forward="false" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/pages/config/config.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/rpigpio.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/virtual.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="53" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/esp8266.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/mqtt.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/drivers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="53" lean-forward="false" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/js/Ha.WebApp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14943">
-          <caret line="879" column="0" lean-forward="false" selection-start-line="879" selection-start-column="0" selection-end-line="879" selection-end-column="0" />
-          <folding>
-            <marker date="1486205306065" expanded="true" signature="7932:7943" ph=" " />
-            <marker date="1486205306065" expanded="true" signature="27192:27227" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="27385:27394" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="27446:27457" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="27538:27591" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="27658:27698" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="27860:27902" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="28292:28327" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="28489:28498" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="28550:28561" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="28642:28695" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="28762:28802" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="28948:28990" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="29283:29294" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="29467:29478" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="29717:29771" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="29830:29839" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="29946:29970" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="30652:30687" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="30841:30850" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="30902:30913" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="30994:31047" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="31114:31154" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="31300:31342" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="31635:31646" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="31819:31830" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="31921:31975" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="32050:32059" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="32192:32201" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="32303:32327" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="32677:32701" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="33051:33075" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="40504:40515" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="62697:62744" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="62812:62842" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="63039:63053" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="63209:63256" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="63331:63360" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="63571:63585" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="63741:63788" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="63857:63886" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="64069:64083" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="64251:64298" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="64366:64395" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="64576:64590" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="64758:64805" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="64878:64907" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="65109:65123" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="71392:71401" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="85894:85920" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="98103:98112" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="99079:99088" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="100651:100698" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="100758:100787" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="100923:100937" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="101294:101341" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="101398:101427" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="101567:101581" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="101711:101758" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="101813:101842" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="103038:103085" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="103142:103171" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="103305:103319" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="103449:103496" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="103551:103580" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="125112:125137" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="125607:125620" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="125675:125703" ph="..." />
-            <marker date="1486205306065" expanded="true" signature="125789:125816" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/pages/config/drivers/mysensors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="155" column="58" lean-forward="true" selection-start-line="155" selection-start-column="58" selection-end-line="155" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13320">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="357">
+          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding />
         </state>
       </provider>
