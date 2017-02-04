@@ -37,12 +37,13 @@
                     <div class="ui-block-b">
                         <span style="float: right">
                             <div class="containing-element" style="width: 200px">
-                                <input id="configure_smsinterface_port" type="text"/>
+                                <input id="configure_smsinterface_port" type="text" />
                             </div>
                         </span>
                     </div>
                 </div>
             </li>
+
 
 
             <li>
@@ -52,14 +53,14 @@
                             <label>
                                 <span>Alowed sender</span>
                                 <p>Note: separate more senders with comma</p>
-                                <br/>
+                            <br />
                             </label>
                         </div>
                     </div>
                     <div class="ui-block-b">
                         <span style="float: right">
                             <div class="containing-element" style="width: 200px">
-                                <input id="configure_smsinterface_alowed_sender" type="text"/>
+                                <input id="configure_smsinterface_alowed_sender" type="text" />
                             </div>
                         </span>
                     </div>
@@ -67,61 +68,59 @@
             </li>
 
 
+
             <li>
                 <span>SMS command shotcuts</span>
                 <div id="Div1" data-role="horizontal" data-mini="true" data-inset="true">
                     <a href="#sms_shotcut_add_popup"
-                       data-role="button" data-rel="popup" data-icon="plus">Add shotrcut</a>
+                        data-role="button" data-rel="popup" data-icon="plus">Add shotrcut</a>
 
-                    <a href="#sms_shotcut_remove_popup" data-role="button" data-rel="popup"
-                       _class="ui-disabled" data-icon="minus">Remove shortcut</a>
-                </div>
+                    <a href="#sms_shotcut_remove_popup" data-role="button" data-rel="popup" 
+                            _class="ui-disabled" data-icon="minus">Remove shortcut</a>
+                </div>   
 
-                <!-- add user -->
-                <div data-role="popup" id="sms_shotcut_add_popup" data-position-to="window" data-transition="pop"
-                     style="max-width:400px;" class="ui-corner-all">
-                    <div data-role="header" class="ui-corner-top">
-                        <h1>Add new SMS command shortcut</h1>
+        <!-- add user -->
+        <div data-role="popup" id="sms_shotcut_add_popup" data-position-to="window" data-transition="pop" style="max-width:400px;" class="ui-corner-all">
+            <div data-role="header" class="ui-corner-top">
+                <h1>Add new SMS command shortcut</h1>
+            </div>
+            <div data-role="content" class="ui-corner-bottom ui-content">
+                <p>
+                    <label for="sms_shortcut">Shortcut:</label>
+                    <input id="sms_shortcut"  />
+                </p>
+                <p>
+                    <label for="sms_comamnd" >Command:</label>
+                    <input id="sms_comamnd" />
+                </p>
+                <a href="#" data-role="button" data-rel="back" >Cancel</a>
+                <a id="add_sms_shortcut" href="#" data-role="button" _class="ui-disabled" data-icon="plus" data-rel="back">Add</a>
+            </div>
+        </div>
+
+                
+
+        <!-- remove shortcut -->
+        <div id="sms_shotcut_remove_popup" class="ui-corner-all " data-role="popup" data-overlay-theme="b" data-position-to="window">
+            <div data-role="header" class="ui-corner-top">
+                <h1 >Remove SMS shotcut</h1>
+            </div>
+            <div class="ui-content ui-corner-bottom">
+                <select id="sms_shortcut_remove"></select>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <a href="#" class="ui-btn ui-shadow ui-corner-all" data-rel="back">Cancel</a>
                     </div>
-                    <div data-role="content" class="ui-corner-bottom ui-content">
-                        <p>
-                            <label for="sms_shortcut">Shortcut:</label>
-                            <input id="sms_shortcut"/>
-                        </p>
-                        <p>
-                            <label for="sms_comamnd">Command:</label>
-                            <input id="sms_comamnd"/>
-                        </p>
-                        <a href="#" data-role="button" data-rel="back">Cancel</a>
-                        <a id="add_sms_shortcut" href="#" data-role="button" _class="ui-disabled" data-icon="plus"
-                           data-rel="back">Add</a>
-                    </div>
-                </div>
-
-
-                <!-- remove shortcut -->
-                <div id="sms_shotcut_remove_popup" class="ui-corner-all " data-role="popup" data-overlay-theme="b"
-                     data-position-to="window">
-                    <div data-role="header" class="ui-corner-top">
-                        <h1>Remove SMS shotcut</h1>
-                    </div>
-                    <div class="ui-content ui-corner-bottom">
-                        <select id="sms_shortcut_remove"></select>
-                        <div class="ui-grid-a">
-                            <div class="ui-block-a">
-                                <a href="#" class="ui-btn ui-shadow ui-corner-all" data-rel="back">Cancel</a>
-                            </div>
-                            <div class="ui-block-b">
-                                <a id="sms_shortcut_button" href="#" class="ui-btn ui-shadow ui-corner-all"
-                                   data-rel="back">Remove</a>
-                            </div>
-                        </div>
+                    <div class="ui-block-b">
+                        <a id="sms_shortcut_button" href="#" class="ui-btn ui-shadow ui-corner-all" data-rel="back">Remove</a>
                     </div>
                 </div>
+            </div>
+        </div>
+                 
+      </li>
 
-            </li>
-
-
+      
             <li>
                 <label for="configure_smsinterface_debug">
                     Debug</label>
@@ -149,7 +148,7 @@
         <div data-role="navbar">
             <ul>
                 <li><a href="#page_config" data-role="button" data-icon="back" data-iconpos="left"
-                       data-mini="true" data-direction="reverse" data-transition="slide">Back</a></li>
+                    data-mini="true" data-direction="reverse" data-transition="slide">Back</a></li>
             </ul>
         </div>
         <!-- /navbar -->

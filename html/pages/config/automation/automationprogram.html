@@ -1,13 +1,11 @@
 ﻿<div data-role="page" id="page_automation_automationprogram">
     {include pages/header.html}
     <div class="ui-content" role="main">
-        <textarea id="automation_program_script"></textarea>
+        <textarea id="automation_program_script" ></textarea>        
     </div>
 
-    <div data-role="popup" id="program_error_message" style="min-width:300px;min-height:180px;"
-         data-transition="slidedown">
-        <a href="javascript:$('#program_error_message').popup('close')" data-rel="back" data-role="button"
-           data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
+    <div data-role="popup" id="program_error_message" style="min-width:300px;min-height:180px;" data-transition="slidedown">
+        <a href="javascript:$('#program_error_message').popup('close')" data-rel="back" data-role="button" data-icon="delete" data-iconpos="notext" class="ui-btn-right">Close</a>
         <div data-role="header" class="ui-corner-top">
             <h1>Errors</h1>
         </div>
@@ -20,12 +18,10 @@
     <div data-role="footer" data-position="fixed">
         <div data-role="navbar">
             <ul>
-                <li><a href="#page_automation_automationprogramparam" data-role="button" data-icon="back"
-                       data-iconpos="left"
-                       data-mini="true" data-direction="reverse" data-transition="slide">Back</a></li>
-                <li><a href="javascript:Ha.WebApp.Configure.AutomationProgramUpdate();" data-role="button"
-                       data-rel="popup"
-                       data-transition="slideup" data-icon="check" data-iconpos="left" data-mini="true">
+                <li><a href="#page_automation_automationprogramparam" data-role="button" data-icon="back" data-iconpos="left"
+                    data-mini="true" data-direction="reverse" data-transition="slide">Back</a></li>
+                <li><a href="javascript:Ha.WebApp.Configure.AutomationProgramUpdate();" data-role="button" data-rel="popup"
+                    data-transition="slideup" data-icon="check" data-iconpos="left" data-mini="true">
                     Update</a></li>
             </ul>
         </div>

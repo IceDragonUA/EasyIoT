@@ -1,11 +1,11 @@
 ﻿<div data-role="page" id="page_groupmodules_groups">
     {include pages/header.html}
     <div class="ui-content" role="main">
-        <ul id="config_groupslist" data-role="listview" data-inset="true"></ul>
+        <ul id="config_groupslist" data-role="listview" data-inset="true" ></ul>
     </div>
     <!-- popup -->
     <div data-role="popup" data-position-to="window" id="control_group_add" style="max-width: 400px;"
-         class="ui-corner-all">
+        class="ui-corner-all">
         <div data-role="header" class="ui-corner-top">
             <h1>
                 New Group</h1>
@@ -13,13 +13,10 @@
         <div data-role="content" class="ui-corner-bottom ui-content">
             <h3 class="ui-title">
                 Enter new group name:</h3>
-            <input id="group_new_name" type="text"/>
+            <input id="group_new_name" type="text" />
             <a href="#" data-role="button" data-inline="true" data-rel="back">Cancel</a> <a id="group_new_button"
-                                                                                            href="#" data-role="button"
-                                                                                            data-inline="true"
-                                                                                            data-rel="back"
-                                                                                            data-transition="flow">
-            Ok</a>
+                href="#" data-role="button" data-inline="true" data-rel="back" data-transition="flow">
+                Ok</a>
         </div>
     </div>
     <!-- navbar -->
@@ -27,9 +24,9 @@
         <div data-role="navbar">
             <ul>
                 <li><a href="#page_config" data-role="button" data-icon="back" data-iconpos="left"
-                       data-mini="true" data-direction="reverse" data-transition="slide">Back</a></li>
+                    data-mini="true" data-direction="reverse" data-transition="slide">Back</a></li>
                 <li><a href="#control_group_add" data-role="button" data-rel="popup" data-transition="pop"
-                       data-icon="plus" data-iconpos="left" data-mini="true">Add group</a></li>
+                    data-icon="plus" data-iconpos="left" data-mini="true">Add group</a></li>
             </ul>
         </div>
         <!-- /navbar -->
